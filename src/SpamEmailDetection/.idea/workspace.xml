@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab35f308-d2ea-45d0-a69a-bf2a0c3b54ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../homework1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../homework1/.idea/homework1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../homework1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../homework1/src/main/java/FinalProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../homework1/src/main/java/Homework2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../homework1/src/main/java/Homework3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../homework1/src/main/java/Homework5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../homework1/src/main/java/Homework6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../homework1/src/main/java/Homework7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../homework1/src/main/java/Homework8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../homework1/src/main/java/Homework9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../homework1/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../toKaggle/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../toKaggle/.idea/toKaggle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../toKaggle/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/build/classes/java/main/Homework1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/build/classes/java/main/Homework1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/build/classes/java/main/Homework2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/build/classes/java/main/Homework2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/build/classes/java/main/Homework3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/build/classes/java/main/Homework3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/build/classes/java/main/Homework5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/build/classes/java/main/Homework5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/build/classes/java/main/Homework6.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/build/classes/java/main/Homework6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/build/classes/java/main/Homework7.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/build/classes/java/main/Homework7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/build/classes/java/main/Homework8.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/build/classes/java/main/Homework8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/build/classes/java/main/Homework9.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/build/classes/java/main/Homework9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/homework1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework1/src/main/java/Homework1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../homework1/src/main/java/Homework1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../homework8.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../toKaggle/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../toKaggle/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../toKaggle/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../toKaggle/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../toKaggle/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../toKaggle/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../toKaggle/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../toKaggle/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../toKaggle/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../toKaggle/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../toKaggle/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../toKaggle/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../toKaggle/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../toKaggle/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../toKaggle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../toKaggle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../toKaggle/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../toKaggle/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../toKaggle/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../toKaggle/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../toKaggle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../toKaggle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../toKaggle/Testing.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../toKaggle/build/classes/java/main/ToKaggle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../toKaggle/build/classes/java/main/ToKaggle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../toKaggle/src/main/java/ToKaggle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../toKaggle/src/main/java/ToKaggle.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1YMN83QqsCxleBfhohujnKrYBu1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="homework1.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gradlew" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/gradlew" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Shell Script.gradlew" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.gradlew" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab35f308-d2ea-45d0-a69a-bf2a0c3b54ed" name="Default Changelist" comment="" />
+      <created>1582748341063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582748341063</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="412" y="150" width="671" height="731" key="#Unnamed" timestamp="1582748514536">
+      <screen x="0" y="25" width="1500" height="975" />
+    </state>
+    <state x="412" y="150" width="671" height="731" key="#Unnamed/0.25.1500.975@0.25.1500.975" timestamp="1582748514536" />
+    <state x="212" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590595886662">
+      <screen x="0" y="27" width="1500" height="973" />
+    </state>
+    <state x="212" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1500.975@0.25.1500.975" timestamp="1582748503926" />
+    <state x="212" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1500.973@0.27.1500.973" timestamp="1590595886662" />
+    <state x="561" y="220" width="374" height="591" key="#com.intellij.ide.util.MemberChooser" timestamp="1585409370692">
+      <screen x="0" y="25" width="1500" height="975" />
+    </state>
+    <state x="561" y="220" width="374" height="591" key="#com.intellij.ide.util.MemberChooser/0.25.1500.975@0.25.1500.975" timestamp="1585409370692" />
+    <state x="485" y="279" width="525" height="443" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590595879809">
+      <screen x="0" y="27" width="1500" height="973" />
+    </state>
+    <state x="485" y="285" width="525" height="443" key="#com.intellij.ide.util.TreeClassChooserDialog/0.25.1500.975@0.25.1500.975" timestamp="1582748498888" />
+    <state x="485" y="279" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1500.973@0.27.1500.973" timestamp="1590595879809" />
+    <state x="536" y="210" width="424" height="498" key="FileChooserDialogImpl" timestamp="1588095547073">
+      <screen x="0" y="25" width="1500" height="975" />
+    </state>
+    <state x="536" y="210" width="424" height="498" key="FileChooserDialogImpl/0.25.1500.975@0.25.1500.975" timestamp="1588095547073" />
+    <state width="1454" height="214" key="GridCell.Tab.0.bottom" timestamp="1590595905667">
+      <screen x="0" y="27" width="1500" height="973" />
+    </state>
+    <state width="1454" height="219" key="GridCell.Tab.0.bottom/0.25.1500.975@0.25.1500.975" timestamp="1587486192274" />
+    <state width="1454" height="214" key="GridCell.Tab.0.bottom/0.27.1500.973@0.27.1500.973" timestamp="1590595905667" />
+    <state width="1454" height="214" key="GridCell.Tab.0.center" timestamp="1590595905666">
+      <screen x="0" y="27" width="1500" height="973" />
+    </state>
+    <state width="1454" height="219" key="GridCell.Tab.0.center/0.25.1500.975@0.25.1500.975" timestamp="1587486192273" />
+    <state width="1454" height="214" key="GridCell.Tab.0.center/0.27.1500.973@0.27.1500.973" timestamp="1590595905666" />
+    <state width="1454" height="214" key="GridCell.Tab.0.left" timestamp="1590595905665">
+      <screen x="0" y="27" width="1500" height="973" />
+    </state>
+    <state width="1454" height="219" key="GridCell.Tab.0.left/0.25.1500.975@0.25.1500.975" timestamp="1587486192272" />
+    <state width="1454" height="214" key="GridCell.Tab.0.left/0.27.1500.973@0.27.1500.973" timestamp="1590595905665" />
+    <state width="1454" height="214" key="GridCell.Tab.0.right" timestamp="1590595905667">
+      <screen x="0" y="27" width="1500" height="973" />
+    </state>
+    <state width="1454" height="219" key="GridCell.Tab.0.right/0.25.1500.975@0.25.1500.975" timestamp="1587486192273" />
+    <state width="1454" height="214" key="GridCell.Tab.0.right/0.27.1500.973@0.27.1500.973" timestamp="1590595905667" />
+    <state width="1454" height="309" key="GridCell.Tab.1.bottom" timestamp="1583981931444">
+      <screen x="0" y="25" width="1500" height="975" />
+    </state>
+    <state width="1454" height="309" key="GridCell.Tab.1.bottom/0.25.1500.975@0.25.1500.975" timestamp="1583981931444" />
+    <state width="1454" height="309" key="GridCell.Tab.1.center" timestamp="1583981931443">
+      <screen x="0" y="25" width="1500" height="975" />
+    </state>
+    <state width="1454" height="309" key="GridCell.Tab.1.center/0.25.1500.975@0.25.1500.975" timestamp="1583981931443" />
+    <state width="1454" height="309" key="GridCell.Tab.1.left" timestamp="1583981931443">
+      <screen x="0" y="25" width="1500" height="975" />
+    </state>
+    <state width="1454" height="309" key="GridCell.Tab.1.left/0.25.1500.975@0.25.1500.975" timestamp="1583981931443" />
+    <state width="1454" height="309" key="GridCell.Tab.1.right" timestamp="1583981931443">
+      <screen x="0" y="25" width="1500" height="975" />
+    </state>
+    <state width="1454" height="309" key="GridCell.Tab.1.right/0.25.1500.975@0.25.1500.975" timestamp="1583981931443" />
+    <state x="234" y="127" width="1031" height="744" key="SettingsEditor" timestamp="1585420087403">
+      <screen x="0" y="25" width="1500" height="975" />
+    </state>
+    <state x="234" y="127" width="1031" height="744" key="SettingsEditor/0.25.1500.975@0.25.1500.975" timestamp="1585420087403" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1583803095105">
+      <screen x="0" y="25" width="1500" height="975" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.25.1500.975@0.25.1500.975" timestamp="1583803095105" />
+    <state x="511" y="173" width="473" height="684" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1583000881745">
+      <screen x="0" y="25" width="1500" height="975" />
+    </state>
+    <state x="511" y="173" width="473" height="684" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1500.975@0.25.1500.975" timestamp="1583000881745" />
+    <state x="69" y="73" width="1358" height="852" key="new project wizard" timestamp="1586864333799">
+      <screen x="0" y="25" width="1500" height="975" />
+    </state>
+    <state x="69" y="73" width="1358" height="852" key="new project wizard/0.25.1500.975@0.25.1500.975" timestamp="1586864333799" />
+    <state x="413" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1584206178175">
+      <screen x="0" y="25" width="1500" height="975" />
+    </state>
+    <state x="413" y="231" width="672" height="678" key="search.everywhere.popup/0.25.1500.975@0.25.1500.975" timestamp="1584206178175" />
+    <state x="478" y="389" width="540" height="189" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1583188658866">
+      <screen x="0" y="25" width="1500" height="975" />
+    </state>
+    <state x="478" y="389" width="540" height="189" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.25.1500.975@0.25.1500.975" timestamp="1583188658866" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/homework1$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1583420564259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

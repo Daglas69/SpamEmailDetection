@@ -1,0 +1,4075 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.FilteredClassifier -F "weka.filters.unsupervised.attribute.StringToWordVector -R first-last -W 1000 -prune-rate -1.0 -N 0 -stemmer weka.core.stemmers.NullStemmer -stopwords-handler weka.core.stopwords.Null -M 1 -tokenizer \"weka.core.tokenizers.WordTokenizer -delimiters \\\" \\\\r\\\\n\\\\t.,;:\\\\\\\'\\\\\\\"()?!\\\"\"" -S 1 -W weka.classifiers.functions.SMO -- -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     Training-weka.filters.supervised.instance.ClassBalancer-num-intervals10
+Instances:    4135
+Attributes:   3
+              ID
+              Text
+              Class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+FilteredClassifier using weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4" on data filtered through weka.filters.unsupervised.attribute.StringToWordVector -R 2 -W 1000 -prune-rate -1.0 -N 0 -stemmer weka.core.stemmers.NullStemmer -stopwords-handler weka.core.stopwords.Null -M 1 -tokenizer "weka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\""
+
+Filtered Header
+@relation 'Training-weka.filters.supervised.instance.ClassBalancer-num-intervals10-weka.filters.unsupervised.attribute.StringToWordVector-R2-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute ID numeric
+@attribute Class {0,1}
+@attribute  numeric
+@attribute # numeric
+@attribute $ numeric
+@attribute '\%' numeric
+@attribute & numeric
+@attribute * numeric
+@attribute + numeric
+@attribute - numeric
+@attribute / numeric
+@attribute 0 numeric
+@attribute 00 numeric
+@attribute 000 numeric
+@attribute 01 numeric
+@attribute 012 numeric
+@attribute 02 numeric
+@attribute 03 numeric
+@attribute 04 numeric
+@attribute 05 numeric
+@attribute 06 numeric
+@attribute 07 numeric
+@attribute 08 numeric
+@attribute 09 numeric
+@attribute 098 numeric
+@attribute 1 numeric
+@attribute 10 numeric
+@attribute 100 numeric
+@attribute 11 numeric
+@attribute 12 numeric
+@attribute 1266 numeric
+@attribute 13 numeric
+@attribute 14 numeric
+@attribute 15 numeric
+@attribute 16 numeric
+@attribute 17 numeric
+@attribute 18 numeric
+@attribute 19 numeric
+@attribute 1999 numeric
+@attribute 2 numeric
+@attribute 20 numeric
+@attribute 200 numeric
+@attribute 2000 numeric
+@attribute 2001 numeric
+@attribute 21 numeric
+@attribute 215 numeric
+@attribute 22 numeric
+@attribute 23 numeric
+@attribute 24 numeric
+@attribute 25 numeric
+@attribute 26 numeric
+@attribute 27 numeric
+@attribute 28 numeric
+@attribute 281 numeric
+@attribute 29 numeric
+@attribute 3 numeric
+@attribute 30 numeric
+@attribute 31 numeric
+@attribute 32 numeric
+@attribute 33 numeric
+@attribute 34 numeric
+@attribute 35 numeric
+@attribute 36 numeric
+@attribute 37 numeric
+@attribute 38 numeric
+@attribute 39 numeric
+@attribute 4 numeric
+@attribute 40 numeric
+@attribute 41 numeric
+@attribute 42 numeric
+@attribute 43 numeric
+@attribute 44 numeric
+@attribute 45 numeric
+@attribute 46 numeric
+@attribute 47 numeric
+@attribute 48 numeric
+@attribute 49 numeric
+@attribute 5 numeric
+@attribute 50 numeric
+@attribute 500 numeric
+@attribute 51 numeric
+@attribute 52 numeric
+@attribute 53 numeric
+@attribute 54 numeric
+@attribute 55 numeric
+@attribute 56 numeric
+@attribute 57 numeric
+@attribute 58 numeric
+@attribute 59 numeric
+@attribute 6 numeric
+@attribute 60 numeric
+@attribute 6353 numeric
+@attribute 7 numeric
+@attribute 700 numeric
+@attribute 713 numeric
+@attribute 8 numeric
+@attribute 800 numeric
+@attribute 830 numeric
+@attribute 85 numeric
+@attribute 853 numeric
+@attribute 9 numeric
+@attribute 9497 numeric
+@attribute 98 numeric
+@attribute 99 numeric
+@attribute = numeric
+@attribute > numeric
+@attribute @ numeric
+@attribute [ numeric
+@attribute ] numeric
+@attribute _ numeric
+@attribute a numeric
+@attribute able numeric
+@attribute about numeric
+@attribute above numeric
+@attribute access numeric
+@attribute account numeric
+@attribute accounting numeric
+@attribute activities numeric
+@attribute activity numeric
+@attribute acton numeric
+@attribute actual numeric
+@attribute actuals numeric
+@attribute add numeric
+@attribute added numeric
+@attribute addition numeric
+@attribute additional numeric
+@attribute additionally numeric
+@attribute address numeric
+@attribute advise numeric
+@attribute aep numeric
+@attribute after numeric
+@attribute afternoon numeric
+@attribute again numeric
+@attribute agree numeric
+@attribute agreement numeric
+@attribute aimee numeric
+@attribute albrecht numeric
+@attribute all numeric
+@attribute allen numeric
+@attribute allocated numeric
+@attribute allocation numeric
+@attribute allow numeric
+@attribute already numeric
+@attribute also numeric
+@attribute am numeric
+@attribute america numeric
+@attribute ami numeric
+@attribute amount numeric
+@attribute an numeric
+@attribute and numeric
+@attribute anita numeric
+@attribute another numeric
+@attribute any numeric
+@attribute anyone numeric
+@attribute anything numeric
+@attribute aol numeric
+@attribute apache numeric
+@attribute approval numeric
+@attribute approximately numeric
+@attribute april numeric
+@attribute are numeric
+@attribute around numeric
+@attribute as numeric
+@attribute ask numeric
+@attribute asked numeric
+@attribute assistance numeric
+@attribute at numeric
+@attribute attached numeric
+@attribute august numeric
+@attribute available numeric
+@attribute avila numeric
+@attribute b numeric
+@attribute back numeric
+@attribute balance numeric
+@attribute base numeric
+@attribute based numeric
+@attribute basis numeric
+@attribute baumbach numeric
+@attribute be numeric
+@attribute beaumont numeric
+@attribute because numeric
+@attribute been numeric
+@attribute before numeric
+@attribute beginning numeric
+@attribute being numeric
+@attribute believe numeric
+@attribute bellamy numeric
+@attribute below numeric
+@attribute best numeric
+@attribute better numeric
+@attribute between numeric
+@attribute beverly numeric
+@attribute big numeric
+@attribute bill numeric
+@attribute boas numeric
+@attribute bob numeric
+@attribute book numeric
+@attribute both numeric
+@attribute box numeric
+@attribute brenda numeric
+@attribute brian numeric
+@attribute bridge numeric
+@attribute bruce numeric
+@attribute bryan numeric
+@attribute btu numeric
+@attribute business numeric
+@attribute but numeric
+@attribute buy numeric
+@attribute buyback numeric
+@attribute by numeric
+@attribute c numeric
+@attribute call numeric
+@attribute called numeric
+@attribute calpine numeric
+@attribute camp numeric
+@attribute can numeric
+@attribute canada numeric
+@attribute cannot numeric
+@attribute carlos numeric
+@attribute carthage numeric
+@attribute case numeric
+@attribute cc numeric
+@attribute cec numeric
+@attribute center numeric
+@attribute central numeric
+@attribute cernosek numeric
+@attribute ces numeric
+@attribute change numeric
+@attribute changed numeric
+@attribute changes numeric
+@attribute charlene numeric
+@attribute charlie numeric
+@attribute charlotte numeric
+@attribute check numeric
+@attribute cheryl numeric
+@attribute chokshi numeric
+@attribute city numeric
+@attribute clear numeric
+@attribute cleburne numeric
+@attribute clem numeric
+@attribute click numeric
+@attribute close numeric
+@attribute clynes numeric
+@attribute co numeric
+@attribute coastal numeric
+@attribute code numeric
+@attribute com numeric
+@attribute come numeric
+@attribute coming numeric
+@attribute communications numeric
+@attribute company numeric
+@attribute complete numeric
+@attribute completed numeric
+@attribute confirm numeric
+@attribute confirmed numeric
+@attribute contact numeric
+@attribute continue numeric
+@attribute contract numeric
+@attribute contracts numeric
+@attribute control numeric
+@attribute copy numeric
+@attribute cornhusker numeric
+@attribute corp numeric
+@attribute corporation numeric
+@attribute correct numeric
+@attribute cost numeric
+@attribute cotten numeric
+@attribute cotton numeric
+@attribute could numeric
+@attribute counterparty numeric
+@attribute cover numeric
+@attribute create numeric
+@attribute created numeric
+@attribute current numeric
+@attribute currently numeric
+@attribute customer numeric
+@attribute customers numeric
+@attribute cut numeric
+@attribute cynthia numeric
+@attribute d numeric
+@attribute daily numeric
+@attribute daren numeric
+@attribute darren numeric
+@attribute data numeric
+@attribute date numeric
+@attribute dave numeric
+@attribute david numeric
+@attribute day numeric
+@attribute days numeric
+@attribute deal numeric
+@attribute deals numeric
+@attribute dec numeric
+@attribute december numeric
+@attribute delivered numeric
+@attribute deliveries numeric
+@attribute delivery numeric
+@attribute demand numeric
+@attribute desk numeric
+@attribute details numeric
+@attribute development numeric
+@attribute devon numeric
+@attribute dfarmer numeric
+@attribute did numeric
+@attribute different numeric
+@attribute direct numeric
+@attribute discuss numeric
+@attribute discussion numeric
+@attribute do numeric
+@attribute doc numeric
+@attribute does numeric
+@attribute doing numeric
+@attribute don numeric
+@attribute donald numeric
+@attribute done numeric
+@attribute donna numeric
+@attribute dow numeric
+@attribute down numeric
+@attribute due numeric
+@attribute duke numeric
+@attribute during numeric
+@attribute dy numeric
+@attribute dynegy numeric
+@attribute e numeric
+@attribute each numeric
+@attribute earl numeric
+@attribute early numeric
+@attribute east numeric
+@attribute eastrans numeric
+@attribute easttexas numeric
+@attribute ect numeric
+@attribute edward numeric
+@attribute ees numeric
+@attribute effective numeric
+@attribute eileen numeric
+@attribute either numeric
+@attribute el numeric
+@attribute elizabeth numeric
+@attribute else numeric
+@attribute email numeric
+@attribute employee numeric
+@attribute employees numeric
+@attribute ena numeric
+@attribute end numeric
+@attribute enerfin numeric
+@attribute energy numeric
+@attribute enron numeric
+@attribute enrononline numeric
+@attribute enronxgate numeric
+@attribute enserch numeric
+@attribute ensure numeric
+@attribute enter numeric
+@attribute entered numeric
+@attribute entex numeric
+@attribute enw numeric
+@attribute eol numeric
+@attribute equistar numeric
+@attribute eric numeric
+@attribute error numeric
+@attribute estimate numeric
+@attribute etc numeric
+@attribute even numeric
+@attribute every numeric
+@attribute everyone numeric
+@attribute ews numeric
+@attribute exception numeric
+@attribute exchange numeric
+@attribute expedia numeric
+@attribute expense numeric
+@attribute exploration numeric
+@attribute extend numeric
+@attribute extended numeric
+@attribute exxon numeric
+@attribute f numeric
+@attribute facility numeric
+@attribute farmer numeric
+@attribute fax numeric
+@attribute feb numeric
+@attribute february numeric
+@attribute fee numeric
+@attribute feedback numeric
+@attribute feel numeric
+@attribute few numeric
+@attribute field numeric
+@attribute file numeric
+@attribute final numeric
+@attribute financial numeric
+@attribute find numeric
+@attribute firm numeric
+@attribute first numeric
+@attribute flash numeric
+@attribute flow numeric
+@attribute flowed numeric
+@attribute flowing numeric
+@attribute follow numeric
+@attribute following numeric
+@attribute follows numeric
+@attribute for numeric
+@attribute form numeric
+@attribute forward numeric
+@attribute forwarded numeric
+@attribute found numeric
+@attribute fred numeric
+@attribute free numeric
+@attribute friday numeric
+@attribute from numeric
+@attribute fuel numeric
+@attribute fuels numeric
+@attribute further numeric
+@attribute future numeric
+@attribute fw numeric
+@attribute fyi numeric
+@attribute g numeric
+@attribute gary numeric
+@attribute gas numeric
+@attribute gathering numeric
+@attribute gco numeric
+@attribute gcs numeric
+@attribute george numeric
+@attribute get numeric
+@attribute getting numeric
+@attribute give numeric
+@attribute global numeric
+@attribute go numeric
+@attribute going numeric
+@attribute gomes numeric
+@attribute good numeric
+@attribute got numeric
+@attribute gpgfin numeric
+@attribute graves numeric
+@attribute great numeric
+@attribute greg numeric
+@attribute group numeric
+@attribute gulf numeric
+@attribute h numeric
+@attribute had numeric
+@attribute hakemack numeric
+@attribute hall numeric
+@attribute handle numeric
+@attribute hanks numeric
+@attribute has numeric
+@attribute have numeric
+@attribute having numeric
+@attribute he numeric
+@attribute heidi numeric
+@attribute help numeric
+@attribute her numeric
+@attribute here numeric
+@attribute herod numeric
+@attribute herrera numeric
+@attribute hesco numeric
+@attribute hesse numeric
+@attribute hi numeric
+@attribute high numeric
+@attribute hill numeric
+@attribute him numeric
+@attribute his numeric
+@attribute home numeric
+@attribute hope numeric
+@attribute hotmail numeric
+@attribute hou numeric
+@attribute hours numeric
+@attribute houston numeric
+@attribute how numeric
+@attribute howard numeric
+@attribute however numeric
+@attribute hpl numeric
+@attribute hplc numeric
+@attribute hplnl numeric
+@attribute hplno numeric
+@attribute hplo numeric
+@attribute hsc numeric
+@attribute http numeric
+@attribute hub numeric
+@attribute i numeric
+@attribute ic numeric
+@attribute id numeric
+@attribute if numeric
+@attribute iferc numeric
+@attribute im numeric
+@attribute image numeric
+@attribute imbalance numeric
+@attribute in numeric
+@attribute inc numeric
+@attribute include numeric
+@attribute included numeric
+@attribute including numeric
+@attribute increase numeric
+@attribute index numeric
+@attribute industrial numeric
+@attribute info numeric
+@attribute information numeric
+@attribute informed numeric
+@attribute intended numeric
+@attribute interconnect numeric
+@attribute interest numeric
+@attribute internet numeric
+@attribute into numeric
+@attribute intrastate numeric
+@attribute invoice numeric
+@attribute is numeric
+@attribute issue numeric
+@attribute issues numeric
+@attribute it numeric
+@attribute items numeric
+@attribute its numeric
+@attribute iv numeric
+@attribute j numeric
+@attribute jackie numeric
+@attribute james numeric
+@attribute jan numeric
+@attribute janet numeric
+@attribute january numeric
+@attribute jeff numeric
+@attribute jennifer numeric
+@attribute jill numeric
+@attribute jim numeric
+@attribute john numeric
+@attribute johnson numeric
+@attribute jones numeric
+@attribute julie numeric
+@attribute july numeric
+@attribute june numeric
+@attribute just numeric
+@attribute k numeric
+@attribute karen numeric
+@attribute katherine numeric
+@attribute katy numeric
+@attribute kcs numeric
+@attribute keep numeric
+@attribute ken numeric
+@attribute kevin numeric
+@attribute kimberly numeric
+@attribute king numeric
+@attribute know numeric
+@attribute koch numeric
+@attribute l numeric
+@attribute lamadrid numeric
+@attribute lamphier numeric
+@attribute lannou numeric
+@attribute last numeric
+@attribute later numeric
+@attribute lauri numeric
+@attribute lee numeric
+@attribute left numeric
+@attribute legal numeric
+@attribute less numeric
+@attribute let numeric
+@attribute letter numeric
+@attribute like numeric
+@attribute limit numeric
+@attribute line numeric
+@attribute link numeric
+@attribute lisa numeric
+@attribute list numeric
+@attribute listed numeric
+@attribute little numeric
+@attribute liz numeric
+@attribute ll numeric
+@attribute lloyd numeric
+@attribute location numeric
+@attribute logistics numeric
+@attribute london numeric
+@attribute lone numeric
+@attribute long numeric
+@attribute look numeric
+@attribute looking numeric
+@attribute looks numeric
+@attribute loss numeric
+@attribute lp numeric
+@attribute ls numeric
+@attribute lsk numeric
+@attribute lsp numeric
+@attribute lst numeric
+@attribute ltd numeric
+@attribute luong numeric
+@attribute m numeric
+@attribute made numeric
+@attribute mail numeric
+@attribute mailto numeric
+@attribute make numeric
+@attribute management numeric
+@attribute manager numeric
+@attribute many numeric
+@attribute march numeric
+@attribute mark numeric
+@attribute market numeric
+@attribute marketing numeric
+@attribute mary numeric
+@attribute matt numeric
+@attribute may numeric
+@attribute mccoy numeric
+@attribute mcf numeric
+@attribute mckay numeric
+@attribute me numeric
+@attribute meet numeric
+@attribute meeting numeric
+@attribute megan numeric
+@attribute melissa numeric
+@attribute message numeric
+@attribute meter numeric
+@attribute meters numeric
+@attribute methanol numeric
+@attribute meyers numeric
+@attribute michael numeric
+@attribute mid numeric
+@attribute midcon numeric
+@attribute might numeric
+@attribute mike numeric
+@attribute mm numeric
+@attribute mmbtu numeric
+@attribute mobil numeric
+@attribute monday numeric
+@attribute month numeric
+@attribute monthly numeric
+@attribute months numeric
+@attribute mops numeric
+@attribute more numeric
+@attribute morning numeric
+@attribute morris numeric
+@attribute most numeric
+@attribute move numeric
+@attribute moved numeric
+@attribute much numeric
+@attribute must numeric
+@attribute my numeric
+@attribute n numeric
+@attribute na numeric
+@attribute name numeric
+@attribute natural numeric
+@attribute neal numeric
+@attribute necessary numeric
+@attribute need numeric
+@attribute needed numeric
+@attribute needs numeric
+@attribute neon numeric
+@attribute net numeric
+@attribute neuweiler numeric
+@attribute new numeric
+@attribute next numeric
+@attribute nguyen numeric
+@attribute night numeric
+@attribute no numeric
+@attribute nom numeric
+@attribute nominated numeric
+@attribute nomination numeric
+@attribute nominations numeric
+@attribute noms numeric
+@attribute north numeric
+@attribute not numeric
+@attribute note numeric
+@attribute notice numeric
+@attribute nov numeric
+@attribute november numeric
+@attribute now numeric
+@attribute number numeric
+@attribute numbers numeric
+@attribute o numeric
+@attribute oasis numeric
+@attribute oct numeric
+@attribute october numeric
+@attribute of numeric
+@attribute off numeric
+@attribute offer numeric
+@attribute office numeric
+@attribute oil numeric
+@attribute old numeric
+@attribute olsen numeric
+@attribute on numeric
+@attribute once numeric
+@attribute one numeric
+@attribute online numeric
+@attribute only numeric
+@attribute operating numeric
+@attribute operations numeric
+@attribute option numeric
+@attribute or numeric
+@attribute order numeric
+@attribute orders numeric
+@attribute original numeric
+@attribute other numeric
+@attribute our numeric
+@attribute out numeric
+@attribute outage numeric
+@attribute over numeric
+@attribute p numeric
+@attribute page numeric
+@attribute paid numeric
+@attribute panenergy numeric
+@attribute papayoti numeric
+@attribute parker numeric
+@attribute part numeric
+@attribute party numeric
+@attribute paso numeric
+@attribute password numeric
+@attribute pat numeric
+@attribute path numeric
+@attribute pathed numeric
+@attribute pay numeric
+@attribute payment numeric
+@attribute pec numeric
+@attribute pefs numeric
+@attribute people numeric
+@attribute per numeric
+@attribute performance numeric
+@attribute period numeric
+@attribute person numeric
+@attribute pg numeric
+@attribute phone numeric
+@attribute physical numeric
+@attribute pinion numeric
+@attribute pipe numeric
+@attribute pipeline numeric
+@attribute place numeric
+@attribute plan numeric
+@attribute plant numeric
+@attribute please numeric
+@attribute pm numeric
+@attribute point numeric
+@attribute points numeric
+@attribute ponton numeric
+@attribute poorman numeric
+@attribute pops numeric
+@attribute portfolio numeric
+@attribute position numeric
+@attribute possible numeric
+@attribute power numeric
+@attribute prc numeric
+@attribute president numeric
+@attribute price numeric
+@attribute priced numeric
+@attribute prices numeric
+@attribute pricing numeric
+@attribute prior numeric
+@attribute probably numeric
+@attribute problem numeric
+@attribute problems numeric
+@attribute process numeric
+@attribute processing numeric
+@attribute producer numeric
+@attribute product numeric
+@attribute production numeric
+@attribute products numeric
+@attribute program numeric
+@attribute project numeric
+@attribute provide numeric
+@attribute purchase numeric
+@attribute purchased numeric
+@attribute purchases numeric
+@attribute put numeric
+@attribute question numeric
+@attribute questions numeric
+@attribute r numeric
+@attribute ranch numeric
+@attribute rate numeric
+@attribute rates numeric
+@attribute ray numeric
+@attribute rc numeric
+@attribute rd numeric
+@attribute re numeric
+@attribute read numeric
+@attribute receipt numeric
+@attribute receive numeric
+@attribute received numeric
+@attribute redeliveries numeric
+@attribute reflect numeric
+@attribute regarding numeric
+@attribute reinhardt numeric
+@attribute reliantenergy numeric
+@attribute report numeric
+@attribute reports numeric
+@attribute request numeric
+@attribute requested numeric
+@attribute requirements numeric
+@attribute resources numeric
+@attribute response numeric
+@attribute return numeric
+@attribute review numeric
+@attribute revised numeric
+@attribute revision numeric
+@attribute richard numeric
+@attribute right numeric
+@attribute riley numeric
+@attribute risk numeric
+@attribute rita numeric
+@attribute robert numeric
+@attribute rodriguez numeric
+@attribute run numeric
+@attribute s numeric
+@attribute said numeric
+@attribute sale numeric
+@attribute sales numeric
+@attribute sally numeric
+@attribute same numeric
+@attribute sandi numeric
+@attribute saturday numeric
+@attribute schedule numeric
+@attribute scheduled numeric
+@attribute scheduling numeric
+@attribute schumack numeric
+@attribute scott numeric
+@attribute section numeric
+@attribute see numeric
+@attribute sell numeric
+@attribute send numeric
+@attribute sent numeric
+@attribute sept numeric
+@attribute september numeric
+@attribute service numeric
+@attribute services numeric
+@attribute set numeric
+@attribute settlements numeric
+@attribute several numeric
+@attribute she numeric
+@attribute sherlyn numeric
+@attribute should numeric
+@attribute show numeric
+@attribute showing numeric
+@attribute shows numeric
+@attribute shut numeric
+@attribute since numeric
+@attribute sitara numeric
+@attribute smith numeric
+@attribute so numeric
+@attribute some numeric
+@attribute someone numeric
+@attribute something numeric
+@attribute soon numeric
+@attribute sorry numeric
+@attribute special numeric
+@attribute spoke numeric
+@attribute spot numeric
+@attribute spreadsheet numeric
+@attribute st numeric
+@attribute stacey numeric
+@attribute stack numeric
+@attribute staff numeric
+@attribute star numeric
+@attribute start numeric
+@attribute state numeric
+@attribute status numeric
+@attribute stella numeric
+@attribute stephanie numeric
+@attribute steve numeric
+@attribute still numeric
+@attribute stock numeric
+@attribute stone numeric
+@attribute storage numeric
+@attribute strangers numeric
+@attribute such numeric
+@attribute suite numeric
+@attribute superty numeric
+@attribute supply numeric
+@attribute support numeric
+@attribute sure numeric
+@attribute survey numeric
+@attribute susan numeric
+@attribute swing numeric
+@attribute system numeric
+@attribute t numeric
+@attribute take numeric
+@attribute talk numeric
+@attribute tammy numeric
+@attribute tap numeric
+@attribute tax numeric
+@attribute taylor numeric
+@attribute team numeric
+@attribute teco numeric
+@attribute tejas numeric
+@attribute tell numeric
+@attribute tenaska numeric
+@attribute term numeric
+@attribute terry numeric
+@attribute tess numeric
+@attribute tetco numeric
+@attribute texas numeric
+@attribute th numeric
+@attribute than numeric
+@attribute thank numeric
+@attribute thanks numeric
+@attribute that numeric
+@attribute the numeric
+@attribute their numeric
+@attribute them numeric
+@attribute then numeric
+@attribute there numeric
+@attribute therefore numeric
+@attribute these numeric
+@attribute they numeric
+@attribute things numeric
+@attribute think numeric
+@attribute this numeric
+@attribute thomas numeric
+@attribute those numeric
+@attribute thought numeric
+@attribute three numeric
+@attribute through numeric
+@attribute thru numeric
+@attribute thu numeric
+@attribute thursday numeric
+@attribute ticket numeric
+@attribute tickets numeric
+@attribute time numeric
+@attribute tisdale numeric
+@attribute to numeric
+@attribute today numeric
+@attribute together numeric
+@attribute told numeric
+@attribute tom numeric
+@attribute tomorrow numeric
+@attribute too numeric
+@attribute total numeric
+@attribute track numeric
+@attribute trade numeric
+@attribute trader numeric
+@attribute trading numeric
+@attribute training numeric
+@attribute transaction numeric
+@attribute transition numeric
+@attribute transport numeric
+@attribute transportation numeric
+@attribute try numeric
+@attribute trying numeric
+@attribute tu numeric
+@attribute tuesday numeric
+@attribute two numeric
+@attribute tx numeric
+@attribute txu numeric
+@attribute type numeric
+@attribute ua numeric
+@attribute under numeric
+@attribute understanding numeric
+@attribute unify numeric
+@attribute union numeric
+@attribute unit numeric
+@attribute unsubscribe numeric
+@attribute until numeric
+@attribute up numeric
+@attribute update numeric
+@attribute updated numeric
+@attribute us numeric
+@attribute use numeric
+@attribute used numeric
+@attribute using numeric
+@attribute utilities numeric
+@attribute vacation numeric
+@attribute valero numeric
+@attribute valid numeric
+@attribute valley numeric
+@attribute vance numeric
+@attribute ve numeric
+@attribute verify numeric
+@attribute very numeric
+@attribute via numeric
+@attribute victor numeric
+@attribute visit numeric
+@attribute vlt numeric
+@attribute volume numeric
+@attribute volumes numeric
+@attribute w numeric
+@attribute waha numeric
+@attribute walker numeric
+@attribute want numeric
+@attribute wanted numeric
+@attribute was numeric
+@attribute way numeric
+@attribute we numeric
+@attribute web numeric
+@attribute website numeric
+@attribute wednesday numeric
+@attribute week numeric
+@attribute weekend numeric
+@attribute weissman numeric
+@attribute well numeric
+@attribute wellhead numeric
+@attribute were numeric
+@attribute what numeric
+@attribute when numeric
+@attribute where numeric
+@attribute which numeric
+@attribute while numeric
+@attribute who numeric
+@attribute whole numeric
+@attribute why numeric
+@attribute will numeric
+@attribute william numeric
+@attribute williams numeric
+@attribute with numeric
+@attribute withers numeric
+@attribute within numeric
+@attribute without numeric
+@attribute work numeric
+@attribute working numeric
+@attribute would numeric
+@attribute www numeric
+@attribute wynne numeric
+@attribute x numeric
+@attribute xls numeric
+@attribute yahoo numeric
+@attribute year numeric
+@attribute yet numeric
+@attribute you numeric
+@attribute young numeric
+@attribute your numeric
+@attribute zero numeric
+@attribute | numeric
+@attribute 000000 numeric
+@attribute 0310041 numeric
+@attribute 0424040 numeric
+@attribute 101 numeric
+@attribute 105 numeric
+@attribute 120 numeric
+@attribute 1226030 numeric
+@attribute 124 numeric
+@attribute 161 numeric
+@attribute 1618 numeric
+@attribute 1933 numeric
+@attribute 1934 numeric
+@attribute 2002 numeric
+@attribute 2003 numeric
+@attribute 2004 numeric
+@attribute 2005 numeric
+@attribute 300 numeric
+@attribute 4176 numeric
+@attribute 63 numeric
+@attribute 69 numeric
+@attribute 70 numeric
+@attribute 75 numeric
+@attribute 80 numeric
+@attribute 8834454 numeric
+@attribute 8834464 numeric
+@attribute 90 numeric
+@attribute 92 numeric
+@attribute 95 numeric
+@attribute 971 numeric
+@attribute ^ numeric
+@attribute ` numeric
+@attribute abdv numeric
+@attribute ability numeric
+@attribute acceptance numeric
+@attribute acquisition numeric
+@attribute act numeric
+@attribute action numeric
+@attribute adobe numeric
+@attribute advanced numeric
+@attribute advantage numeric
+@attribute advice numeric
+@attribute advisor numeric
+@attribute aerofoam numeric
+@attribute affiliate numeric
+@attribute age numeric
+@attribute air numeric
+@attribute al numeric
+@attribute alert numeric
+@attribute ali numeric
+@attribute align numeric
+@attribute alt numeric
+@attribute always numeric
+@attribute announced numeric
+@attribute anticipated numeric
+@attribute aopen numeric
+@attribute apc numeric
+@attribute apple numeric
+@attribute application numeric
+@attribute approved numeric
+@attribute area numeric
+@attribute arial numeric
+@attribute art numeric
+@attribute assumptions numeric
+@attribute assurance numeric
+@attribute attention numeric
+@attribute availability numeric
+@attribute aware numeric
+@attribute away numeric
+@attribute bank numeric
+@attribute become numeric
+@attribute begin numeric
+@attribute believes numeric
+@attribute bgcolor numeric
+@attribute billion numeric
+@attribute biz numeric
+@attribute body numeric
+@attribute border numeric
+@attribute br numeric
+@attribute brand numeric
+@attribute browser numeric
+@attribute businesses numeric
+@attribute ca numeric
+@attribute calls numeric
+@attribute canon numeric
+@attribute capital numeric
+@attribute card numeric
+@attribute care numeric
+@attribute cash numeric
+@attribute cause numeric
+@attribute cd numeric
+@attribute cds numeric
+@attribute ce numeric
+@attribute cellpadding numeric
+@attribute certain numeric
+@attribute cf numeric
+@attribute charge numeric
+@attribute cheap numeric
+@attribute china numeric
+@attribute choose numeric
+@attribute cialis numeric
+@attribute cisco numeric
+@attribute claim numeric
+@attribute clearance numeric
+@attribute color numeric
+@attribute colspan numeric
+@attribute commercial numeric
+@attribute companies numeric
+@attribute compaq numeric
+@attribute complaints numeric
+@attribute compliance numeric
+@attribute computer numeric
+@attribute computron numeric
+@attribute conflict numeric
+@attribute congress numeric
+@attribute considered numeric
+@attribute construed numeric
+@attribute contains numeric
+@attribute content numeric
+@attribute corel numeric
+@attribute country numeric
+@attribute creative numeric
+@attribute credit numeric
+@attribute cs numeric
+@attribute customerservice numeric
+@attribute darial numeric
+@attribute de numeric
+@attribute dealer numeric
+@attribute dealers numeric
+@attribute dear numeric
+@attribute dell numeric
+@attribute demokritos numeric
+@attribute department numeric
+@attribute differ numeric
+@attribute digital numeric
+@attribute director numeric
+@attribute discount numeric
+@attribute div numeric
+@attribute doctor numeric
+@attribute documents numeric
+@attribute dollars numeric
+@attribute door numeric
+@attribute download numeric
+@attribute dr numeric
+@attribute draw numeric
+@attribute drive numeric
+@attribute drugs numeric
+@attribute duty numeric
+@attribute dvd numeric
+@attribute easy numeric
+@attribute edition numeric
+@attribute effort numeric
+@attribute en numeric
+@attribute enquiries numeric
+@attribute enterprise numeric
+@attribute eogi numeric
+@attribute epson numeric
+@attribute est numeric
+@attribute estimates numeric
+@attribute events numeric
+@attribute ever numeric
+@attribute everything numeric
+@attribute ex numeric
+@attribute exactly numeric
+@attribute exclusive numeric
+@attribute expect numeric
+@attribute expectations numeric
+@attribute expected numeric
+@attribute expects numeric
+@attribute experience numeric
+@attribute export numeric
+@attribute express numeric
+@attribute face numeric
+@attribute fact numeric
+@attribute factors numeric
+@attribute facts numeric
+@attribute family numeric
+@attribute fast numeric
+@attribute fat numeric
+@attribute featured numeric
+@attribute features numeric
+@attribute federal numeric
+@attribute female numeric
+@attribute financing numeric
+@attribute five numeric
+@attribute fixed numeric
+@attribute font numeric
+@attribute fontfont numeric
+@attribute format numeric
+@attribute four numeric
+@attribute friend numeric
+@attribute ftar numeric
+@attribute full numeric
+@attribute fund numeric
+@attribute game numeric
+@attribute gb numeric
+@attribute general numeric
+@attribute generic numeric
+@attribute gif numeric
+@attribute girls numeric
+@attribute given numeric
+@attribute gold numeric
+@attribute gotten numeric
+@attribute government numeric
+@attribute gr numeric
+@attribute gra numeric
+@attribute growth numeric
+@attribute guarantee numeric
+@attribute half numeric
+@attribute happy numeric
+@attribute hard numeric
+@attribute head numeric
+@attribute health numeric
+@attribute height numeric
+@attribute hello numeric
+@attribute herein numeric
+@attribute hewlett numeric
+@attribute highly numeric
+@attribute history numeric
+@attribute hot numeric
+@attribute hotlist numeric
+@attribute href numeric
+@attribute htm numeric
+@attribute html numeric
+@attribute htmlimg numeric
+@attribute huge numeric
+@attribute ibm numeric
+@attribute identified numeric
+@attribute iii numeric
+@attribute iit numeric
+@attribute images numeric
+@attribute img numeric
+@attribute immediately numeric
+@attribute important numeric
+@attribute includes numeric
+@attribute increased numeric
+@attribute industry numeric
+@attribute inherent numeric
+@attribute instant numeric
+@attribute instructions numeric
+@attribute intel numeric
+@attribute intellinet numeric
+@attribute interested numeric
+@attribute international numeric
+@attribute investing numeric
+@attribute investment numeric
+@attribute investor numeric
+@attribute investors numeric
+@attribute involve numeric
+@attribute iomega numeric
+@attribute itoy numeric
+@attribute jebel numeric
+@attribute jpg numeric
+@attribute kind numeric
+@attribute knle numeric
+@attribute known numeric
+@attribute la numeric
+@attribute large numeric
+@attribute late numeric
+@attribute latest numeric
+@attribute leader numeric
+@attribute learn numeric
+@attribute legislation numeric
+@attribute leth numeric
+@attribute level numeric
+@attribute licensed numeric
+@attribute life numeric
+@attribute limited numeric
+@attribute listing numeric
+@attribute live numeric
+@attribute local numeric
+@attribute logos numeric
+@attribute longer numeric
+@attribute lose numeric
+@attribute lots numeric
+@attribute love numeric
+@attribute low numeric
+@attribute macromedia numeric
+@attribute mailing numeric
+@attribute major numeric
+@attribute man numeric
+@attribute materia numeric
+@attribute material numeric
+@attribute materially numeric
+@attribute matter numeric
+@attribute meaning numeric
+@attribute media numeric
+@attribute medical numeric
+@attribute medications numeric
+@attribute meds numeric
+@attribute men numeric
+@attribute mg numeric
+@attribute microsoft numeric
+@attribute middle numeric
+@attribute million numeric
+@attribute mobile numeric
+@attribute money numeric
+@attribute moopid numeric
+@attribute mr numeric
+@attribute ms numeric
+@attribute muscle numeric
+@attribute music numeric
+@attribute mx numeric
+@attribute national numeric
+@attribute nbsp numeric
+@attribute nd numeric
+@attribute near numeric
+@attribute network numeric
+@attribute never numeric
+@attribute news numeric
+@attribute newsletter numeric
+@attribute nomad numeric
+@attribute none numeric
+@attribute normally numeric
+@attribute nothing numeric
+@attribute occur numeric
+@attribute oem numeric
+@attribute offering numeric
+@attribute offers numeric
+@attribute officer numeric
+@attribute oi numeric
+@attribute oo numeric
+@attribute ooking numeric
+@attribute open numeric
+@attribute opinion numeric
+@attribute opportunity numeric
+@attribute options numeric
+@attribute otcbb numeric
+@attribute outstanding numeric
+@attribute overnight numeric
+@attribute own numeric
+@attribute owners numeric
+@attribute packard numeric
+@attribute pain numeric
+@attribute paliourg numeric
+@attribute paragraph numeric
+@attribute partner numeric
+@attribute passed numeric
+@attribute past numeric
+@attribute paste numeric
+@attribute pc numeric
+@attribute penis numeric
+@attribute perfect numeric
+@attribute personal numeric
+@attribute pharmacy numeric
+@attribute photoshop numeric
+@attribute php numeric
+@attribute pills numeric
+@attribute plain numeric
+@attribute plans numeric
+@attribute play numeric
+@attribute plus numeric
+@attribute popular numeric
+@attribute potential numeric
+@attribute prescription numeric
+@attribute presently numeric
+@attribute press numeric
+@attribute private numeric
+@attribute prize numeric
+@attribute pro numeric
+@attribute professional numeric
+@attribute profile numeric
+@attribute projections numeric
+@attribute projects numeric
+@attribute property numeric
+@attribute provided numeric
+@attribute pt numeric
+@attribute public numeric
+@attribute publication numeric
+@attribute publisher numeric
+@attribute q numeric
+@attribute quality numeric
+@attribute quick numeric
+@attribute readers numeric
+@attribute real numeric
+@attribute really numeric
+@attribute reason numeric
+@attribute recent numeric
+@attribute regards numeric
+@attribute registered numeric
+@attribute release numeric
+@attribute relief numeric
+@attribute remember numeric
+@attribute remove numeric
+@attribute removed numeric
+@attribute reply numeric
+@attribute represent numeric
+@attribute representative numeric
+@attribute required numeric
+@attribute research numeric
+@attribute resellers numeric
+@attribute reserves numeric
+@attribute respect numeric
+@attribute respective numeric
+@attribute results numeric
+@attribute retail numeric
+@attribute revenue numeric
+@attribute revenues numeric
+@attribute risks numeric
+@attribute rm numeric
+@attribute rnd numeric
+@attribute robotics numeric
+@attribute rolex numeric
+@attribute rx numeric
+@attribute safe numeric
+@attribute save numeric
+@attribute savings numeric
+@attribute say numeric
+@attribute se numeric
+@attribute sec numeric
+@attribute second numeric
+@attribute secure numeric
+@attribute securities numeric
+@attribute security numeric
+@attribute seek numeric
+@attribute selected numeric
+@attribute server numeric
+@attribute sex numeric
+@attribute sexual numeric
+@attribute shall numeric
+@attribute share numeric
+@attribute shares numeric
+@attribute ship numeric
+@attribute shipped numeric
+@attribute shipping numeric
+@attribute short numeric
+@attribute shown numeric
+@attribute side numeric
+@attribute simply numeric
+@attribute site numeric
+@attribute size numeric
+@attribute small numeric
+@attribute sofftwaares numeric
+@attribute soft numeric
+@attribute software numeric
+@attribute solicitation numeric
+@attribute solid numeric
+@attribute solution numeric
+@attribute solutions numeric
+@attribute soma numeric
+@attribute somehow numeric
+@attribute sony numeric
+@attribute source numeric
+@attribute sources numeric
+@attribute south numeric
+@attribute spain numeric
+@attribute spam numeric
+@attribute speculative numeric
+@attribute src numeric
+@attribute statements numeric
+@attribute states numeric
+@attribute stocks numeric
+@attribute stop numeric
+@attribute strong numeric
+@attribute style numeric
+@attribute subject numeric
+@attribute subscribers numeric
+@attribute suggestions numeric
+@attribute super numeric
+@attribute symbol numeric
+@attribute systems numeric
+@attribute table numeric
+@attribute tabs numeric
+@attribute target numeric
+@attribute targus numeric
+@attribute td numeric
+@attribute technologies numeric
+@attribute technology numeric
+@attribute tel numeric
+@attribute telephone numeric
+@attribute terms numeric
+@attribute text numeric
+@attribute thing numeric
+@attribute third numeric
+@attribute thousand numeric
+@attribute times numeric
+@attribute title numeric
+@attribute titles numeric
+@attribute top numeric
+@attribute toshiba numeric
+@attribute tr numeric
+@attribute trademarks numeric
+@attribute transfer numeric
+@attribute turn numeric
+@attribute u numeric
+@attribute uncertainties numeric
+@attribute und numeric
+@attribute unique numeric
+@attribute united numeric
+@attribute upon numeric
+@attribute usa numeric
+@attribute usb numeric
+@attribute user numeric
+@attribute v numeric
+@attribute valign numeric
+@attribute valium numeric
+@attribute value numeric
+@attribute verdana numeric
+@attribute version numeric
+@attribute viagra numeric
+@attribute vicodin numeric
+@attribute video numeric
+@attribute view numeric
+@attribute viewsonic numeric
+@attribute voice numeric
+@attribute voip numeric
+@attribute waste numeric
+@attribute watch numeric
+@attribute weeks numeric
+@attribute weight numeric
+@attribute wi numeric
+@attribute wide numeric
+@attribute width numeric
+@attribute wife numeric
+@attribute windows numeric
+@attribute wireless numeric
+@attribute wish numeric
+@attribute women numeric
+@attribute won numeric
+@attribute words numeric
+@attribute works numeric
+@attribute world numeric
+@attribute worldwide numeric
+@attribute write numeric
+@attribute xanax numeric
+@attribute xp numeric
+@attribute y numeric
+@attribute yap numeric
+@attribute years numeric
+@attribute yourself numeric
+@attribute z numeric
+@attribute zone numeric
+@attribute ~ numeric
+
+@data
+
+
+Classifier Model
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1953 * (normalized) ID
+ +      -0.2141 * (normalized) 
+ +      -0.2614 * (normalized) #
+ +       0.2183 * (normalized) $
+ +       0.6856 * (normalized) %
+ +      -0.2598 * (normalized) &
+ +      -0.0265 * (normalized) *
+ +       0.3337 * (normalized) +
+ +      -0.2884 * (normalized) -
+ +      -0.2845 * (normalized) /
+ +       0.0164 * (normalized) 0
+ +       0.1286 * (normalized) 00
+ +      -0.0832 * (normalized) 000
+ +      -0.2628 * (normalized) 01
+ +      -0.5006 * (normalized) 012
+ +      -0.0234 * (normalized) 02
+ +      -0.1135 * (normalized) 03
+ +       0.1122 * (normalized) 04
+ +       0.0294 * (normalized) 05
+ +      -0.2958 * (normalized) 06
+ +       0.0059 * (normalized) 07
+ +       0.0034 * (normalized) 08
+ +       0.0034 * (normalized) 09
+ +       0.0879 * (normalized) 1
+ +      -0.2254 * (normalized) 10
+ +       0.0342 * (normalized) 100
+ +       0.0219 * (normalized) 11
+ +      -0.1055 * (normalized) 12
+ +       0.0332 * (normalized) 13
+ +       0.1178 * (normalized) 14
+ +      -0.143  * (normalized) 15
+ +      -0.0726 * (normalized) 16
+ +      -0.1526 * (normalized) 17
+ +      -0.0215 * (normalized) 18
+ +      -0.012  * (normalized) 19
+ +       0.0136 * (normalized) 1999
+ +       0.0753 * (normalized) 2
+ +      -0.0251 * (normalized) 20
+ +      -0.0268 * (normalized) 200
+ +      -0.5735 * (normalized) 2000
+ +      -0.2657 * (normalized) 2001
+ +      -0.1201 * (normalized) 21
+ +       0.0138 * (normalized) 215
+ +       0.1267 * (normalized) 22
+ +       0.0228 * (normalized) 23
+ +       0.181  * (normalized) 24
+ +       0.032  * (normalized) 25
+ +      -0.223  * (normalized) 26
+ +      -0.0445 * (normalized) 27
+ +      -0.2356 * (normalized) 28
+ +      -0.224  * (normalized) 281
+ +      -0.1839 * (normalized) 29
+ +       0.0727 * (normalized) 3
+ +      -0.2232 * (normalized) 30
+ +      -0.2594 * (normalized) 31
+ +      -0.0458 * (normalized) 32
+ +       0.1675 * (normalized) 33
+ +      -0.001  * (normalized) 34
+ +       0.0139 * (normalized) 35
+ +       0.0515 * (normalized) 36
+ +      -0.0347 * (normalized) 37
+ +      -0.0066 * (normalized) 38
+ +       0.0825 * (normalized) 39
+ +      -0.0757 * (normalized) 4
+ +      -0.0757 * (normalized) 40
+ +       0.0429 * (normalized) 41
+ +       0.0084 * (normalized) 42
+ +       0.3329 * (normalized) 43
+ +       0.0369 * (normalized) 44
+ +       0.1025 * (normalized) 45
+ +       0.0698 * (normalized) 46
+ +       0.1115 * (normalized) 47
+ +       0.3348 * (normalized) 48
+ +      -0.015  * (normalized) 49
+ +       0.1724 * (normalized) 5
+ +      -0.1807 * (normalized) 50
+ +       0.0034 * (normalized) 500
+ +      -0.0372 * (normalized) 51
+ +       0.0206 * (normalized) 52
+ +      -0.2608 * (normalized) 53
+ +       0.0058 * (normalized) 54
+ +       0.0604 * (normalized) 55
+ +       0.1083 * (normalized) 56
+ +      -0.1538 * (normalized) 57
+ +      -0.0101 * (normalized) 58
+ +      -0.0465 * (normalized) 59
+ +       0.1216 * (normalized) 6
+ +       0.2978 * (normalized) 60
+ +       0.1776 * (normalized) 7
+ +       0.0191 * (normalized) 700
+ +      -0.5414 * (normalized) 713
+ +       0.1653 * (normalized) 8
+ +      -0.2504 * (normalized) 800
+ +       0      * (normalized) 830
+ +      -0.0734 * (normalized) 85
+ +      -0.0215 * (normalized) 853
+ +      -0.0292 * (normalized) 9
+ +       0      * (normalized) 9497
+ +       0.0038 * (normalized) 98
+ +      -0.1626 * (normalized) 99
+ +      -0.0569 * (normalized) =
+ +      -0.2306 * (normalized) >
+ +      -0.3137 * (normalized) @
+ +       0.4097 * (normalized) [
+ +       0.2654 * (normalized) ]
+ +       0.1118 * (normalized) _
+ +       0.2605 * (normalized) a
+ +      -0.1021 * (normalized) able
+ +      -0.3935 * (normalized) about
+ +       0.0459 * (normalized) above
+ +      -0.2678 * (normalized) access
+ +       0.495  * (normalized) account
+ +      -0.0809 * (normalized) accounting
+ +      -0.1505 * (normalized) activities
+ +       0.0169 * (normalized) activity
+ +       0.112  * (normalized) actual
+ +      -0.0353 * (normalized) actuals
+ +      -0.0522 * (normalized) add
+ +      -0.1857 * (normalized) added
+ +      -0.0757 * (normalized) addition
+ +       0.0201 * (normalized) additional
+ +      -0.4074 * (normalized) address
+ +       0.0122 * (normalized) advise
+ +      -0.2206 * (normalized) aep
+ +       0.1876 * (normalized) after
+ +      -0.0485 * (normalized) afternoon
+ +      -0.3303 * (normalized) again
+ +       0.0925 * (normalized) agree
+ +      -0.1235 * (normalized) agreement
+ +      -0.0451 * (normalized) aimee
+ +       0.0366 * (normalized) all
+ +       0.0263 * (normalized) allen
+ +      -0.0603 * (normalized) allocated
+ +      -0      * (normalized) allocation
+ +       0.2454 * (normalized) allow
+ +       0.0987 * (normalized) already
+ +       0.0154 * (normalized) also
+ +      -0.1619 * (normalized) am
+ +       0.062  * (normalized) america
+ +      -0.3423 * (normalized) ami
+ +      -0.1062 * (normalized) amount
+ +      -0.0473 * (normalized) an
+ +      -0.0354 * (normalized) and
+ +       0.0065 * (normalized) another
+ +      -0.2652 * (normalized) any
+ +       0.1827 * (normalized) anyone
+ +      -0.0752 * (normalized) anything
+ +      -0.1285 * (normalized) aol
+ +      -0.1144 * (normalized) approval
+ +      -0.0845 * (normalized) approximately
+ +      -0.3933 * (normalized) april
+ +      -0.2158 * (normalized) are
+ +      -0.408  * (normalized) around
+ +      -0.0876 * (normalized) as
+ +       0.1625 * (normalized) ask
+ +      -0.079  * (normalized) asked
+ +       0.0331 * (normalized) assistance
+ +      -0.2867 * (normalized) at
+ +      -0.9593 * (normalized) attached
+ +      -0.088  * (normalized) august
+ +      -0.0324 * (normalized) available
+ +       0.1647 * (normalized) b
+ +      -0.1045 * (normalized) back
+ +      -0.0603 * (normalized) balance
+ +       0.0804 * (normalized) base
+ +       0.2043 * (normalized) based
+ +      -0.0332 * (normalized) basis
+ +       0      * (normalized) baumbach
+ +      -0.0568 * (normalized) be
+ +      -0.1523 * (normalized) beaumont
+ +       0.2232 * (normalized) because
+ +      -0.2683 * (normalized) been
+ +       0.1454 * (normalized) before
+ +       0.0657 * (normalized) beginning
+ +       0.1028 * (normalized) being
+ +      -0.2521 * (normalized) believe
+ +       0.0013 * (normalized) bellamy
+ +       0.1282 * (normalized) below
+ +       0.3964 * (normalized) best
+ +       0.0061 * (normalized) better
+ +      -0.0083 * (normalized) between
+ +      -0      * (normalized) beverly
+ +       0.0411 * (normalized) big
+ +       0.1201 * (normalized) bill
+ +      -0.3506 * (normalized) bob
+ +      -0.1344 * (normalized) book
+ +       0.0884 * (normalized) both
+ +       0.2212 * (normalized) box
+ +      -0.007  * (normalized) brenda
+ +      -0.184  * (normalized) brian
+ +      -0.0057 * (normalized) bridge
+ +      -0.0531 * (normalized) bruce
+ +      -0.3357 * (normalized) bryan
+ +       0.222  * (normalized) business
+ +       0.4305 * (normalized) but
+ +       0.2104 * (normalized) buy
+ +      -0.2195 * (normalized) buyback
+ +      -0.4023 * (normalized) by
+ +       0.0941 * (normalized) c
+ +      -0.0449 * (normalized) call
+ +      -0.0215 * (normalized) called
+ +      -0.2177 * (normalized) calpine
+ +      -0.191  * (normalized) camp
+ +       0.1119 * (normalized) can
+ +       0.086  * (normalized) canada
+ +      -0.0896 * (normalized) cannot
+ +      -0.1427 * (normalized) carlos
+ +      -0.223  * (normalized) carthage
+ +      -0.0361 * (normalized) case
+ +      -0.0583 * (normalized) cc
+ +      -0.0804 * (normalized) center
+ +       0.0439 * (normalized) central
+ +      -0.1984 * (normalized) ces
+ +       0.0058 * (normalized) change
+ +      -0.1501 * (normalized) changed
+ +      -0.1011 * (normalized) changes
+ +       0.0634 * (normalized) charlie
+ +      -0.006  * (normalized) charlotte
+ +       0.029  * (normalized) check
+ +       0      * (normalized) cheryl
+ +      -0      * (normalized) chokshi
+ +      -0.2018 * (normalized) city
+ +      -0.0492 * (normalized) clear
+ +      -0.196  * (normalized) cleburne
+ +      -0.1428 * (normalized) click
+ +       0.0617 * (normalized) close
+ +      -0.2427 * (normalized) co
+ +       0      * (normalized) coastal
+ +      -0.0863 * (normalized) code
+ +       0.2006 * (normalized) com
+ +       0.3354 * (normalized) come
+ +      -0.0442 * (normalized) coming
+ +      -0.0118 * (normalized) communications
+ +       0.0667 * (normalized) company
+ +      -0.1474 * (normalized) complete
+ +      -0.0539 * (normalized) completed
+ +       0.1837 * (normalized) confirm
+ +      -0.0107 * (normalized) confirmed
+ +      -0.1703 * (normalized) contact
+ +      -0.2748 * (normalized) continue
+ +      -0.4735 * (normalized) contract
+ +      -0.4569 * (normalized) contracts
+ +       0.0648 * (normalized) control
+ +       0.0602 * (normalized) copy
+ +      -0.1814 * (normalized) cornhusker
+ +       0.1191 * (normalized) corp
+ +       0.0142 * (normalized) corporation
+ +       0.1365 * (normalized) correct
+ +      -0.0448 * (normalized) cost
+ +      -0.0341 * (normalized) cotton
+ +       0.2284 * (normalized) could
+ +       0      * (normalized) counterparty
+ +      -0.0939 * (normalized) cover
+ +      -0.0159 * (normalized) create
+ +       0      * (normalized) created
+ +       0.1581 * (normalized) current
+ +       0.0164 * (normalized) currently
+ +       0.0426 * (normalized) customer
+ +      -0.2286 * (normalized) customers
+ +      -0.0746 * (normalized) cut
+ +       0      * (normalized) cynthia
+ +       0.3441 * (normalized) d
+ +      -0.0677 * (normalized) daily
+ +      -0.8189 * (normalized) daren
+ +      -0.2564 * (normalized) darren
+ +       0.1017 * (normalized) data
+ +      -0.1944 * (normalized) date
+ +      -0.5689 * (normalized) dave
+ +       0.0646 * (normalized) david
+ +      -0.5759 * (normalized) day
+ +      -0.246  * (normalized) days
+ +      -0.4255 * (normalized) deal
+ +       0.133  * (normalized) deals
+ +       0.1679 * (normalized) dec
+ +      -0.1319 * (normalized) december
+ +      -0.0493 * (normalized) delivered
+ +      -0.2072 * (normalized) deliveries
+ +      -0.2764 * (normalized) delivery
+ +       0.0488 * (normalized) demand
+ +      -0.0764 * (normalized) desk
+ +       0.4176 * (normalized) details
+ +       0.1536 * (normalized) development
+ +      -0.13   * (normalized) devon
+ +      -0.375  * (normalized) dfarmer
+ +       0.0351 * (normalized) did
+ +       0.0939 * (normalized) different
+ +       0.1545 * (normalized) direct
+ +       0.1807 * (normalized) discuss
+ +       0.0106 * (normalized) discussion
+ +       0.1679 * (normalized) do
+ +      -1.1879 * (normalized) doc
+ +       0.0008 * (normalized) does
+ +      -0.0977 * (normalized) doing
+ +       0.0649 * (normalized) don
+ +       0.1298 * (normalized) done
+ +       0.032  * (normalized) dow
+ +       0.2206 * (normalized) down
+ +      -0.1411 * (normalized) due
+ +      -0.5881 * (normalized) duke
+ +       0.3487 * (normalized) during
+ +       0.0357 * (normalized) dy
+ +      -0.0242 * (normalized) dynegy
+ +       0.2547 * (normalized) e
+ +      -0.0145 * (normalized) each
+ +      -0.0526 * (normalized) early
+ +       0.2409 * (normalized) east
+ +      -0.2938 * (normalized) eastrans
+ +      -0.2391 * (normalized) ect
+ +       0.1043 * (normalized) edward
+ +      -0.0603 * (normalized) ees
+ +      -0.0472 * (normalized) effective
+ +       0.0337 * (normalized) either
+ +      -0.0829 * (normalized) el
+ +       0.3043 * (normalized) else
+ +       0.2537 * (normalized) email
+ +      -0.166  * (normalized) employee
+ +      -0.0312 * (normalized) employees
+ +      -0.1592 * (normalized) ena
+ +      -0.2851 * (normalized) end
+ +       0.0298 * (normalized) energy
+ +      -1.0548 * (normalized) enron
+ +      -0.0215 * (normalized) enrononline
+ +      -0.0014 * (normalized) enserch
+ +       0.1124 * (normalized) ensure
+ +       0.0848 * (normalized) enter
+ +      -0.0033 * (normalized) entered
+ +      -0.6372 * (normalized) entex
+ +      -0.0093 * (normalized) equistar
+ +       0.0197 * (normalized) eric
+ +      -0.0429 * (normalized) error
+ +      -0.1231 * (normalized) estimate
+ +       0.5871 * (normalized) etc
+ +       0.2368 * (normalized) even
+ +       0.0994 * (normalized) every
+ +      -0.2374 * (normalized) everyone
+ +       0.0778 * (normalized) exception
+ +       0.0283 * (normalized) exchange
+ +       0      * (normalized) expedia
+ +      -0.3837 * (normalized) expense
+ +      -0.0848 * (normalized) exploration
+ +       0.1109 * (normalized) extend
+ +       0.105  * (normalized) extended
+ +      -0.1836 * (normalized) exxon
+ +       0.3143 * (normalized) f
+ +      -0.0695 * (normalized) facility
+ +      -0.2497 * (normalized) farmer
+ +      -0.4298 * (normalized) fax
+ +      -0.4414 * (normalized) feb
+ +      -0.737  * (normalized) february
+ +      -0.4076 * (normalized) fee
+ +       0.1953 * (normalized) feedback
+ +       0.047  * (normalized) feel
+ +      -0.0924 * (normalized) few
+ +      -0.1325 * (normalized) field
+ +       0.0536 * (normalized) file
+ +      -0.1442 * (normalized) final
+ +      -0.0272 * (normalized) financial
+ +       0.2827 * (normalized) find
+ +       0.0223 * (normalized) firm
+ +      -0.0482 * (normalized) first
+ +       0.0296 * (normalized) flash
+ +      -0.249  * (normalized) flow
+ +      -0.0552 * (normalized) flowed
+ +      -0.1098 * (normalized) flowing
+ +      -0.3568 * (normalized) follow
+ +      -0.7165 * (normalized) following
+ +      -0.3364 * (normalized) follows
+ +      -0.2685 * (normalized) for
+ +       0.0272 * (normalized) form
+ +      -0.0211 * (normalized) forward
+ +      -0.0715 * (normalized) forwarded
+ +       0.3028 * (normalized) found
+ +       0.0533 * (normalized) free
+ +      -0.0929 * (normalized) friday
+ +       0.0363 * (normalized) from
+ +      -0.0033 * (normalized) fuel
+ +      -0.0341 * (normalized) fuels
+ +       0.2321 * (normalized) further
+ +       0.2388 * (normalized) future
+ +      -0.0049 * (normalized) fw
+ +      -0.1824 * (normalized) fyi
+ +       0.1613 * (normalized) g
+ +      -0.2452 * (normalized) gary
+ +      -0.3635 * (normalized) gas
+ +       0.0303 * (normalized) gathering
+ +       0.0667 * (normalized) george
+ +       0.2942 * (normalized) get
+ +      -0.0789 * (normalized) getting
+ +       0.0917 * (normalized) give
+ +      -0.0787 * (normalized) global
+ +      -0.1279 * (normalized) go
+ +      -0.2307 * (normalized) going
+ +       0.289  * (normalized) good
+ +       0.4296 * (normalized) got
+ +       0.1519 * (normalized) great
+ +      -0.0017 * (normalized) greg
+ +      -0.198  * (normalized) group
+ +      -0.0209 * (normalized) gulf
+ +       0.177  * (normalized) h
+ +      -0.2375 * (normalized) had
+ +       0      * (normalized) hall
+ +      -0.1447 * (normalized) handle
+ +       0.0265 * (normalized) hanks
+ +      -0.113  * (normalized) has
+ +      -0.2539 * (normalized) have
+ +      -0.542  * (normalized) having
+ +       0.5871 * (normalized) he
+ +      -0.1449 * (normalized) help
+ +       0.2502 * (normalized) her
+ +       0.345  * (normalized) here
+ +       0      * (normalized) hesco
+ +       0.5738 * (normalized) hi
+ +       0.4254 * (normalized) high
+ +      -0.1165 * (normalized) hill
+ +      -0.1288 * (normalized) him
+ +       0.0004 * (normalized) his
+ +       0.1224 * (normalized) home
+ +      -0.4911 * (normalized) hope
+ +      -0.3586 * (normalized) hotmail
+ +      -0.0409 * (normalized) hou
+ +       0.347  * (normalized) hours
+ +      -0.4604 * (normalized) houston
+ +      -0.2321 * (normalized) how
+ +      -0.1057 * (normalized) howard
+ +       0.1719 * (normalized) however
+ +      -0.3087 * (normalized) hpl
+ +       0      * (normalized) hplnl
+ +       0      * (normalized) hplno
+ +       0      * (normalized) hplo
+ +      -0      * (normalized) hsc
+ +       0.2517 * (normalized) http
+ +      -0.1191 * (normalized) hub
+ +      -0.3552 * (normalized) i
+ +       0      * (normalized) ic
+ +       0.0244 * (normalized) id
+ +      -0.245  * (normalized) if
+ +       0      * (normalized) iferc
+ +       0.0089 * (normalized) im
+ +       0.063  * (normalized) image
+ +      -0.083  * (normalized) imbalance
+ +      -0.366  * (normalized) in
+ +      -0.3249 * (normalized) inc
+ +      -0.0329 * (normalized) include
+ +      -0.0398 * (normalized) included
+ +      -0.0239 * (normalized) including
+ +      -0.0553 * (normalized) increase
+ +      -0.3837 * (normalized) index
+ +       0.0359 * (normalized) industrial
+ +       0.1245 * (normalized) info
+ +       0.0809 * (normalized) information
+ +       0.0071 * (normalized) informed
+ +       0.0037 * (normalized) intended
+ +      -0.0408 * (normalized) interest
+ +       0.0072 * (normalized) internet
+ +       0.0643 * (normalized) into
+ +       0      * (normalized) invoice
+ +      -0.6416 * (normalized) is
+ +       0.1228 * (normalized) issue
+ +      -0.2793 * (normalized) issues
+ +       0.1405 * (normalized) it
+ +      -0.1888 * (normalized) items
+ +       0.0441 * (normalized) its
+ +       0.0274 * (normalized) iv
+ +      -0.5701 * (normalized) j
+ +      -0.0451 * (normalized) jackie
+ +      -0.0253 * (normalized) james
+ +      -0.006  * (normalized) jan
+ +      -0.1518 * (normalized) janet
+ +      -0.0643 * (normalized) january
+ +      -0.0017 * (normalized) jeff
+ +      -0.025  * (normalized) jennifer
+ +      -0.1382 * (normalized) jill
+ +      -0.1878 * (normalized) jim
+ +       0.0223 * (normalized) john
+ +       0.2281 * (normalized) johnson
+ +       0.063  * (normalized) jones
+ +      -0.2238 * (normalized) julie
+ +      -0.2714 * (normalized) july
+ +      -0.6536 * (normalized) june
+ +      -0.2393 * (normalized) just
+ +      -0.0421 * (normalized) k
+ +      -0.1024 * (normalized) katy
+ +       0.1089 * (normalized) keep
+ +      -0.5782 * (normalized) ken
+ +       0.0458 * (normalized) kevin
+ +       0.0902 * (normalized) king
+ +      -0.2216 * (normalized) know
+ +      -0.0197 * (normalized) l
+ +      -0.0451 * (normalized) lannou
+ +       0.2542 * (normalized) last
+ +      -0.0856 * (normalized) later
+ +       0.0023 * (normalized) lee
+ +      -0.2191 * (normalized) left
+ +       0.0183 * (normalized) legal
+ +       0.1381 * (normalized) less
+ +      -0.2124 * (normalized) let
+ +      -0.3796 * (normalized) letter
+ +       0.0375 * (normalized) like
+ +      -0.0378 * (normalized) limit
+ +      -0.0771 * (normalized) line
+ +       0.205  * (normalized) link
+ +      -0      * (normalized) lisa
+ +      -0.4785 * (normalized) list
+ +      -0.0372 * (normalized) listed
+ +      -0.4365 * (normalized) little
+ +       0      * (normalized) liz
+ +      -0.1361 * (normalized) ll
+ +      -0.0451 * (normalized) lloyd
+ +       0.0565 * (normalized) location
+ +      -0.2612 * (normalized) logistics
+ +      -0.0185 * (normalized) london
+ +      -0.0078 * (normalized) lone
+ +      -0.0485 * (normalized) long
+ +       0.2167 * (normalized) look
+ +       0.4539 * (normalized) looking
+ +      -0.0523 * (normalized) looks
+ +       0.0885 * (normalized) loss
+ +       0      * (normalized) lsk
+ +       0.0406 * (normalized) lst
+ +       0.0687 * (normalized) ltd
+ +       0.0662 * (normalized) m
+ +       0.044  * (normalized) made
+ +      -0.3332 * (normalized) mail
+ +      -0.2598 * (normalized) mailto
+ +       0.0382 * (normalized) make
+ +       0.0504 * (normalized) management
+ +       0.0769 * (normalized) manager
+ +       0.4301 * (normalized) many
+ +      -0.1214 * (normalized) march
+ +      -0.3099 * (normalized) mark
+ +       0.2206 * (normalized) market
+ +      -0.0461 * (normalized) marketing
+ +      -0.5107 * (normalized) mary
+ +       0.0526 * (normalized) matt
+ +      -0.3219 * (normalized) may
+ +       0.0923 * (normalized) me
+ +       0.0826 * (normalized) meet
+ +       0.2066 * (normalized) meeting
+ +      -0.0083 * (normalized) megan
+ +       0.2785 * (normalized) message
+ +      -0.8758 * (normalized) meter
+ +       0      * (normalized) meters
+ +      -0.0538 * (normalized) methanol
+ +       0.2005 * (normalized) meyers
+ +       0.0833 * (normalized) michael
+ +       0.0812 * (normalized) mid
+ +      -0.0926 * (normalized) midcon
+ +       0.0376 * (normalized) might
+ +      -0.1625 * (normalized) mike
+ +      -0      * (normalized) mm
+ +      -0.0867 * (normalized) mmbtu
+ +      -0.2164 * (normalized) mobil
+ +      -0.2363 * (normalized) monday
+ +       0.0729 * (normalized) month
+ +       0.0479 * (normalized) monthly
+ +      -0.0286 * (normalized) months
+ +       0      * (normalized) mops
+ +       0.1657 * (normalized) more
+ +       0.1913 * (normalized) morning
+ +      -0.0451 * (normalized) morris
+ +      -0.172  * (normalized) most
+ +       0.0192 * (normalized) move
+ +       0.0178 * (normalized) moved
+ +       0.3869 * (normalized) much
+ +      -0.104  * (normalized) must
+ +       0.2967 * (normalized) my
+ +       0.1415 * (normalized) n
+ +       0.2213 * (normalized) name
+ +       0.174  * (normalized) natural
+ +      -0.2763 * (normalized) neal
+ +      -0.2094 * (normalized) necessary
+ +      -0.206  * (normalized) need
+ +       0.0927 * (normalized) needed
+ +      -0.04   * (normalized) needs
+ +      -0.5035 * (normalized) neon
+ +       0.5    * (normalized) net
+ +       0      * (normalized) neuweiler
+ +      -0.459  * (normalized) new
+ +      -0.291  * (normalized) next
+ +      -0.1057 * (normalized) nguyen
+ +      -0.1123 * (normalized) night
+ +       0.359  * (normalized) no
+ +      -0.4165 * (normalized) nom
+ +      -0.5528 * (normalized) nominated
+ +      -0.386  * (normalized) nomination
+ +      -0      * (normalized) nominations
+ +       0      * (normalized) noms
+ +       0.1268 * (normalized) north
+ +      -0.0206 * (normalized) not
+ +      -0.0669 * (normalized) note
+ +       0.0491 * (normalized) notice
+ +      -0.036  * (normalized) nov
+ +      -0.2034 * (normalized) november
+ +      -0.1997 * (normalized) now
+ +      -0.0402 * (normalized) number
+ +      -0.5133 * (normalized) numbers
+ +      -0.1396 * (normalized) o
+ +      -0.1594 * (normalized) oasis
+ +      -0.2491 * (normalized) october
+ +      -0.0733 * (normalized) of
+ +       0.2783 * (normalized) off
+ +       0.0324 * (normalized) offer
+ +      -0.0056 * (normalized) office
+ +      -0.0814 * (normalized) oil
+ +       0.122  * (normalized) old
+ +       0      * (normalized) olsen
+ +      -0.2258 * (normalized) on
+ +       0.0769 * (normalized) once
+ +       0.1361 * (normalized) one
+ +       0.5582 * (normalized) online
+ +       0.4723 * (normalized) only
+ +       0.012  * (normalized) operating
+ +      -0.5623 * (normalized) operations
+ +       0.0024 * (normalized) option
+ +       0.1882 * (normalized) or
+ +       0.371  * (normalized) order
+ +      -0.0581 * (normalized) orders
+ +       0.0027 * (normalized) original
+ +       0.0369 * (normalized) other
+ +       0.3006 * (normalized) our
+ +      -0.3374 * (normalized) out
+ +       0.0626 * (normalized) over
+ +      -0.0052 * (normalized) p
+ +      -0.0358 * (normalized) page
+ +      -0.0916 * (normalized) paid
+ +      -0      * (normalized) parker
+ +       0.1757 * (normalized) part
+ +      -0.579  * (normalized) party
+ +      -0.0829 * (normalized) paso
+ +      -0.2925 * (normalized) password
+ +      -0.1775 * (normalized) pat
+ +      -0.0579 * (normalized) path
+ +       0      * (normalized) pathed
+ +       0.0959 * (normalized) pay
+ +       0.3645 * (normalized) payment
+ +       0.4465 * (normalized) people
+ +       0.0388 * (normalized) per
+ +      -0.0411 * (normalized) performance
+ +       0.1186 * (normalized) period
+ +      -0.1653 * (normalized) person
+ +      -0.0867 * (normalized) pg
+ +       0.2532 * (normalized) phone
+ +      -0.0683 * (normalized) physical
+ +       0.0032 * (normalized) pinion
+ +       0.0188 * (normalized) pipe
+ +      -0.1284 * (normalized) pipeline
+ +      -0.0619 * (normalized) place
+ +       0.0954 * (normalized) plan
+ +      -0.2587 * (normalized) plant
+ +      -0.1881 * (normalized) please
+ +      -0.5007 * (normalized) pm
+ +      -0.5408 * (normalized) point
+ +      -0.2625 * (normalized) points
+ +       0      * (normalized) pops
+ +      -0.1377 * (normalized) portfolio
+ +       0.0948 * (normalized) position
+ +       0.167  * (normalized) possible
+ +       0.0178 * (normalized) power
+ +       0.1313 * (normalized) president
+ +      -0.079  * (normalized) price
+ +      -0.0155 * (normalized) priced
+ +       0.2037 * (normalized) prices
+ +       0.0787 * (normalized) pricing
+ +       0.0007 * (normalized) prior
+ +      -0.0467 * (normalized) probably
+ +      -0.1482 * (normalized) problem
+ +      -0.3062 * (normalized) problems
+ +       0.0145 * (normalized) process
+ +       0.1436 * (normalized) processing
+ +      -0.0242 * (normalized) producer
+ +       0.141  * (normalized) product
+ +      -0.5159 * (normalized) production
+ +       0.1379 * (normalized) products
+ +       0.0133 * (normalized) program
+ +      -0.0492 * (normalized) project
+ +       0.0398 * (normalized) provide
+ +       0.008  * (normalized) purchase
+ +      -0.0367 * (normalized) purchased
+ +       0.1826 * (normalized) purchases
+ +      -0.3943 * (normalized) put
+ +       0.1021 * (normalized) question
+ +       0.0012 * (normalized) questions
+ +       0.333  * (normalized) r
+ +      -0.1098 * (normalized) ranch
+ +       0.0013 * (normalized) rate
+ +       0.1314 * (normalized) rates
+ +       0      * (normalized) ray
+ +      -0.0877 * (normalized) rc
+ +      -0.285  * (normalized) rd
+ +       0.0868 * (normalized) re
+ +       0.9504 * (normalized) read
+ +      -0.0256 * (normalized) receipt
+ +      -0.1705 * (normalized) receive
+ +      -0.5524 * (normalized) received
+ +      -0.0867 * (normalized) redeliveries
+ +      -0.0242 * (normalized) reflect
+ +      -0.1216 * (normalized) regarding
+ +      -0      * (normalized) reliantenergy
+ +       0.2286 * (normalized) report
+ +       0.001  * (normalized) reports
+ +      -0.0573 * (normalized) request
+ +      -0.145  * (normalized) requested
+ +       0.1245 * (normalized) requirements
+ +      -0.5392 * (normalized) resources
+ +      -0.47   * (normalized) response
+ +      -0.0032 * (normalized) return
+ +      -0.0286 * (normalized) review
+ +      -0.6999 * (normalized) revised
+ +      -0      * (normalized) revision
+ +       0.0652 * (normalized) richard
+ +      -0.351  * (normalized) right
+ +      -0.1075 * (normalized) riley
+ +       0.1878 * (normalized) risk
+ +      -0.051  * (normalized) robert
+ +       0.0497 * (normalized) rodriguez
+ +       0.2789 * (normalized) run
+ +      -0.0683 * (normalized) s
+ +       0.1233 * (normalized) said
+ +       0.0055 * (normalized) sale
+ +       0.0531 * (normalized) sales
+ +       0.1545 * (normalized) sally
+ +      -0.0757 * (normalized) same
+ +      -0.1043 * (normalized) sandi
+ +      -0.2156 * (normalized) saturday
+ +      -0.3164 * (normalized) schedule
+ +       0      * (normalized) scheduling
+ +       0.0169 * (normalized) scott
+ +       0.2445 * (normalized) section
+ +      -0.3564 * (normalized) see
+ +       0.0061 * (normalized) sell
+ +      -0.109  * (normalized) send
+ +      -0.1229 * (normalized) sent
+ +      -0.0215 * (normalized) sept
+ +       0.0567 * (normalized) september
+ +      -0.0702 * (normalized) service
+ +      -0.0828 * (normalized) services
+ +       0.0847 * (normalized) set
+ +       0.058  * (normalized) settlements
+ +      -0.0217 * (normalized) several
+ +       0.1042 * (normalized) she
+ +      -0.2026 * (normalized) should
+ +      -0.4177 * (normalized) show
+ +      -0.0501 * (normalized) showing
+ +      -0.1355 * (normalized) shows
+ +       0.0592 * (normalized) shut
+ +       0.0103 * (normalized) since
+ +      -0.6835 * (normalized) sitara
+ +      -0.0309 * (normalized) smith
+ +       0.0167 * (normalized) so
+ +       0.0501 * (normalized) some
+ +      -0.0597 * (normalized) someone
+ +      -0.2056 * (normalized) something
+ +       0.14   * (normalized) soon
+ +      -0.666  * (normalized) sorry
+ +       0.1307 * (normalized) special
+ +       0.0538 * (normalized) spoke
+ +      -0.0023 * (normalized) spot
+ +      -0.7358 * (normalized) spreadsheet
+ +       0.2733 * (normalized) st
+ +      -0.0579 * (normalized) stacey
+ +      -0.0174 * (normalized) stack
+ +      -0.124  * (normalized) staff
+ +       0.0796 * (normalized) star
+ +      -0.1881 * (normalized) start
+ +      -0.0847 * (normalized) state
+ +      -0.0662 * (normalized) status
+ +       0.0024 * (normalized) stella
+ +      -0.4943 * (normalized) steve
+ +      -0.0312 * (normalized) still
+ +       0.0231 * (normalized) stock
+ +       0.0018 * (normalized) stone
+ +      -0.0378 * (normalized) storage
+ +      -0.0295 * (normalized) such
+ +       0.0733 * (normalized) suite
+ +      -0.1951 * (normalized) superty
+ +      -0.0026 * (normalized) supply
+ +       0.2331 * (normalized) support
+ +      -0.1142 * (normalized) sure
+ +      -0.0806 * (normalized) susan
+ +      -0.0347 * (normalized) swing
+ +       0.0945 * (normalized) system
+ +       0.0923 * (normalized) t
+ +       0.1307 * (normalized) take
+ +       0.1119 * (normalized) talk
+ +      -0.025  * (normalized) tammy
+ +      -0.0353 * (normalized) tap
+ +      -0.2801 * (normalized) tax
+ +      -0.2083 * (normalized) team
+ +      -0.3058 * (normalized) teco
+ +      -0.0209 * (normalized) tejas
+ +       0.1294 * (normalized) tell
+ +      -0.1491 * (normalized) tenaska
+ +      -0.0993 * (normalized) term
+ +       0.0196 * (normalized) terry
+ +       0.0041 * (normalized) tess
+ +       0      * (normalized) tetco
+ +      -1.0913 * (normalized) texas
+ +      -0.1024 * (normalized) th
+ +       0.3636 * (normalized) than
+ +      -0.5778 * (normalized) thank
+ +      -0.7522 * (normalized) thanks
+ +       0.2283 * (normalized) that
+ +      -0.3507 * (normalized) the
+ +       0.1421 * (normalized) their
+ +      -0.0193 * (normalized) them
+ +       0.0254 * (normalized) then
+ +       0.1399 * (normalized) there
+ +       0.0973 * (normalized) therefore
+ +      -0.577  * (normalized) these
+ +      -0.0194 * (normalized) they
+ +      -0.0027 * (normalized) things
+ +       0.079  * (normalized) think
+ +       0.03   * (normalized) this
+ +       0.0154 * (normalized) thomas
+ +      -0.3878 * (normalized) those
+ +      -0.2041 * (normalized) thought
+ +       0.049  * (normalized) three
+ +      -0.1843 * (normalized) through
+ +      -0.0558 * (normalized) thru
+ +      -0.0391 * (normalized) thu
+ +      -0.2263 * (normalized) thursday
+ +       0.0517 * (normalized) ticket
+ +       0.0012 * (normalized) tickets
+ +       0.2337 * (normalized) time
+ +      -0.1948 * (normalized) to
+ +       0.0341 * (normalized) today
+ +      -0.1577 * (normalized) together
+ +      -0.0307 * (normalized) told
+ +      -0.1402 * (normalized) tom
+ +      -0.405  * (normalized) tomorrow
+ +      -0.0678 * (normalized) too
+ +      -0.2516 * (normalized) total
+ +       0.0476 * (normalized) track
+ +       0.0954 * (normalized) trade
+ +      -0.0146 * (normalized) trader
+ +      -0.0409 * (normalized) trading
+ +      -0.2272 * (normalized) training
+ +       0.2013 * (normalized) transaction
+ +      -0.0223 * (normalized) transition
+ +       0.028  * (normalized) transport
+ +       0.0874 * (normalized) try
+ +      -0.168  * (normalized) trying
+ +      -0      * (normalized) tu
+ +      -0.0472 * (normalized) tuesday
+ +      -0.4179 * (normalized) two
+ +      -0.0822 * (normalized) tx
+ +      -0.2284 * (normalized) txu
+ +      -0.0611 * (normalized) type
+ +      -0.3972 * (normalized) ua
+ +      -0.1654 * (normalized) under
+ +       0.0839 * (normalized) understanding
+ +      -0.1827 * (normalized) unify
+ +      -0.4648 * (normalized) union
+ +      -0      * (normalized) unit
+ +      -0.2808 * (normalized) unsubscribe
+ +       0.0192 * (normalized) until
+ +      -0.134  * (normalized) up
+ +      -0.5716 * (normalized) update
+ +      -0.3607 * (normalized) updated
+ +       0.1223 * (normalized) us
+ +       0.1416 * (normalized) use
+ +       0.3703 * (normalized) used
+ +       0.1487 * (normalized) using
+ +      -0.0465 * (normalized) utilities
+ +      -0.7333 * (normalized) vacation
+ +      -0      * (normalized) valero
+ +      -0.0934 * (normalized) valid
+ +      -0.125  * (normalized) valley
+ +      -0.1366 * (normalized) vance
+ +       0.1313 * (normalized) ve
+ +       0.0956 * (normalized) verify
+ +      -0.014  * (normalized) very
+ +       0.2109 * (normalized) via
+ +       0.3041 * (normalized) visit
+ +       0.04   * (normalized) volume
+ +      -0      * (normalized) volumes
+ +       0.01   * (normalized) w
+ +       0.1951 * (normalized) want
+ +       0.2531 * (normalized) wanted
+ +       0.1429 * (normalized) was
+ +      -0.0928 * (normalized) way
+ +       0.1885 * (normalized) we
+ +      -0.2123 * (normalized) web
+ +       0.4119 * (normalized) website
+ +      -0.2289 * (normalized) wednesday
+ +      -0.0946 * (normalized) week
+ +      -0.1181 * (normalized) weekend
+ +      -0.0713 * (normalized) well
+ +      -0.0814 * (normalized) wellhead
+ +       0.1063 * (normalized) were
+ +       0.092  * (normalized) what
+ +      -0.0305 * (normalized) when
+ +      -0.0704 * (normalized) where
+ +      -0.1818 * (normalized) which
+ +       0.0147 * (normalized) while
+ +       0.2279 * (normalized) who
+ +      -0.1015 * (normalized) whole
+ +       0.2864 * (normalized) why
+ +      -0.208  * (normalized) will
+ +      -0      * (normalized) william
+ +       0.0387 * (normalized) williams
+ +       0.1982 * (normalized) with
+ +       0.1271 * (normalized) within
+ +       0.0557 * (normalized) without
+ +      -0.3096 * (normalized) work
+ +      -0.1135 * (normalized) working
+ +      -0.3782 * (normalized) would
+ +      -0.2685 * (normalized) www
+ +      -0.374  * (normalized) x
+ +      -0.9093 * (normalized) xls
+ +      -0.3424 * (normalized) yahoo
+ +      -0.283  * (normalized) year
+ +      -0.0626 * (normalized) yet
+ +       0.271  * (normalized) you
+ +       0.1007 * (normalized) young
+ +       0.3471 * (normalized) your
+ +      -0.0561 * (normalized) zero
+ +       0.2997 * (normalized) |
+ +       0.0464 * (normalized) 000000
+ +       0.0038 * (normalized) 101
+ +       0.0038 * (normalized) 105
+ +       0.0122 * (normalized) 120
+ +       0.0464 * (normalized) 1226030
+ +       0.0464 * (normalized) 124
+ +       0.0464 * (normalized) 161
+ +       0.0038 * (normalized) 1618
+ +       0.0013 * (normalized) 1933
+ +       0.0013 * (normalized) 1934
+ +      -0.0162 * (normalized) 2002
+ +       0.1747 * (normalized) 2003
+ +       0.4273 * (normalized) 2004
+ +       0.2533 * (normalized) 2005
+ +       0.2773 * (normalized) 300
+ +       0.0038 * (normalized) 4176
+ +       0.0675 * (normalized) 63
+ +       0.076  * (normalized) 69
+ +       0.1356 * (normalized) 70
+ +       0.0968 * (normalized) 75
+ +      -0.1238 * (normalized) 80
+ +       0.0038 * (normalized) 8834454
+ +       0.0038 * (normalized) 8834464
+ +       0.0812 * (normalized) 90
+ +      -0.1131 * (normalized) 92
+ +       0.2206 * (normalized) 95
+ +       0.0038 * (normalized) 971
+ +       0.212  * (normalized) ^
+ +       0.21   * (normalized) `
+ +       0.0018 * (normalized) abdv
+ +       0.0108 * (normalized) ability
+ +       0.0013 * (normalized) acceptance
+ +       0.1079 * (normalized) acquisition
+ +       0.2242 * (normalized) act
+ +       0.142  * (normalized) action
+ +       0.0434 * (normalized) adobe
+ +       0.2394 * (normalized) advanced
+ +       0.1128 * (normalized) advantage
+ +       0.1716 * (normalized) advice
+ +      -0.0373 * (normalized) advisor
+ +       0.0798 * (normalized) affiliate
+ +       0.3061 * (normalized) age
+ +      -0.0438 * (normalized) air
+ +       0.3196 * (normalized) al
+ +       0.3    * (normalized) alert
+ +       0.0509 * (normalized) ali
+ +       0.0464 * (normalized) align
+ +       0.1091 * (normalized) alt
+ +       0.0919 * (normalized) always
+ +      -0.0224 * (normalized) announced
+ +       0.0013 * (normalized) anticipated
+ +       0.0038 * (normalized) aopen
+ +       0.0038 * (normalized) apc
+ +       0.0475 * (normalized) apple
+ +      -0.0767 * (normalized) application
+ +      -0.037  * (normalized) approved
+ +       0.0232 * (normalized) area
+ +       0.0464 * (normalized) arial
+ +       0.1437 * (normalized) art
+ +       0.0031 * (normalized) assumptions
+ +       0.0013 * (normalized) assurance
+ +       0.3282 * (normalized) attention
+ +      -0.1607 * (normalized) availability
+ +      -0.1032 * (normalized) aware
+ +       0.067  * (normalized) away
+ +       0.2422 * (normalized) bank
+ +       0.0756 * (normalized) become
+ +      -0.0849 * (normalized) begin
+ +       0.0065 * (normalized) believes
+ +       0.0464 * (normalized) bgcolor
+ +       0.0431 * (normalized) billion
+ +       0.3686 * (normalized) biz
+ +       0.0953 * (normalized) body
+ +       0.1114 * (normalized) border
+ +       0.2502 * (normalized) br
+ +       0.3258 * (normalized) brand
+ +       0.1135 * (normalized) browser
+ +       0.0222 * (normalized) businesses
+ +       0.3446 * (normalized) ca
+ +      -0.0499 * (normalized) calls
+ +       0.4596 * (normalized) canon
+ +       0.1042 * (normalized) capital
+ +       0.0796 * (normalized) card
+ +       0.0279 * (normalized) care
+ +       0.1129 * (normalized) cash
+ +      -0.1378 * (normalized) cause
+ +      -0.0612 * (normalized) cd
+ +      -0.0631 * (normalized) cds
+ +      -0      * (normalized) ce
+ +       0.0464 * (normalized) cellpadding
+ +       0.0658 * (normalized) certain
+ +       0      * (normalized) cf
+ +       0.0984 * (normalized) charge
+ +       0.1101 * (normalized) cheap
+ +       0.0268 * (normalized) china
+ +      -0.0095 * (normalized) choose
+ +       0.2093 * (normalized) cialis
+ +       0.0038 * (normalized) cisco
+ +       0.0237 * (normalized) claim
+ +      -0.0332 * (normalized) clearance
+ +      -0.402  * (normalized) color
+ +       0.0464 * (normalized) colspan
+ +       0.0238 * (normalized) commercial
+ +       0.2886 * (normalized) companies
+ +      -0.2983 * (normalized) compaq
+ +       0.0038 * (normalized) complaints
+ +       0.0051 * (normalized) compliance
+ +       0.2041 * (normalized) computer
+ +       0.0038 * (normalized) computron
+ +       0.0031 * (normalized) conflict
+ +       0.0548 * (normalized) congress
+ +       0.1338 * (normalized) considered
+ +       0.0267 * (normalized) construed
+ +       0.0031 * (normalized) contains
+ +       0.0264 * (normalized) content
+ +       0.0434 * (normalized) corel
+ +       0.1419 * (normalized) country
+ +       0.0176 * (normalized) creative
+ +       0.1507 * (normalized) credit
+ +       0.2074 * (normalized) cs
+ +       0.0038 * (normalized) customerservice
+ +       0.2984 * (normalized) de
+ +       0.0292 * (normalized) dealer
+ +      -0.0204 * (normalized) dealers
+ +      -0.1221 * (normalized) dear
+ +       0.0053 * (normalized) dell
+ +       0.0822 * (normalized) demokritos
+ +       0.1345 * (normalized) department
+ +       0.1168 * (normalized) differ
+ +       0.1259 * (normalized) digital
+ +       0.1301 * (normalized) director
+ +       0.1868 * (normalized) discount
+ +       0.0464 * (normalized) div
+ +       0.1156 * (normalized) doctor
+ +      -0.0732 * (normalized) documents
+ +       0.1378 * (normalized) dollars
+ +       0.0209 * (normalized) door
+ +       0.4121 * (normalized) download
+ +      -0.0406 * (normalized) dr
+ +       0.0376 * (normalized) draw
+ +      -0.0765 * (normalized) drive
+ +       0.1342 * (normalized) drugs
+ +       0.0172 * (normalized) duty
+ +       0.0189 * (normalized) dvd
+ +       0.1577 * (normalized) easy
+ +       0.0793 * (normalized) edition
+ +       0.021  * (normalized) effort
+ +       0.0523 * (normalized) en
+ +       0.0038 * (normalized) enquiries
+ +       0.056  * (normalized) enterprise
+ +       0.032  * (normalized) eogi
+ +      -0.1467 * (normalized) epson
+ +      -0.6497 * (normalized) est
+ +       0.0013 * (normalized) estimates
+ +      -0.0723 * (normalized) events
+ +      -0.0822 * (normalized) ever
+ +      -0.3854 * (normalized) everything
+ +       0.0287 * (normalized) ex
+ +       0.004  * (normalized) exactly
+ +       0.2123 * (normalized) exclusive
+ +       0.1083 * (normalized) expect
+ +       0.0031 * (normalized) expectations
+ +       0.0187 * (normalized) expected
+ +       0.0055 * (normalized) expects
+ +       0.098  * (normalized) experience
+ +       0.0038 * (normalized) export
+ +      -0.0259 * (normalized) express
+ +       0.394  * (normalized) face
+ +       0.1024 * (normalized) fact
+ +      -0.059  * (normalized) factors
+ +       0.0408 * (normalized) facts
+ +       0.0367 * (normalized) family
+ +      -0.0086 * (normalized) fast
+ +       0.4542 * (normalized) fat
+ +       0.0718 * (normalized) featured
+ +       0.0828 * (normalized) features
+ +       0.0085 * (normalized) federal
+ +       0.1551 * (normalized) female
+ +       0.0031 * (normalized) financing
+ +       0.0267 * (normalized) five
+ +       0.0128 * (normalized) fixed
+ +       0.2338 * (normalized) font
+ +       0.0464 * (normalized) fontfont
+ +       0.1215 * (normalized) format
+ +       0.3953 * (normalized) four
+ +      -0.0578 * (normalized) friend
+ +       0.4747 * (normalized) full
+ +       0.2372 * (normalized) fund
+ +      -0.048  * (normalized) game
+ +       0.111  * (normalized) general
+ +       0.079  * (normalized) generic
+ +      -0.1015 * (normalized) gif
+ +       0.1227 * (normalized) girls
+ +       0.0654 * (normalized) given
+ +       0.0323 * (normalized) gold
+ +       0.0038 * (normalized) gotten
+ +       0.0236 * (normalized) government
+ +       0.0822 * (normalized) gr
+ +       0.1288 * (normalized) gra
+ +       0.1711 * (normalized) growth
+ +       0.0418 * (normalized) guarantee
+ +      -0.3653 * (normalized) half
+ +      -0.0378 * (normalized) happy
+ +       0.0947 * (normalized) hard
+ +       0.0449 * (normalized) head
+ +       0.1668 * (normalized) health
+ +       0.0898 * (normalized) height
+ +       0.5579 * (normalized) hello
+ +       0.0013 * (normalized) herein
+ +       0.0038 * (normalized) hewlett
+ +       0.068  * (normalized) highly
+ +       0.1706 * (normalized) history
+ +       0.1821 * (normalized) hot
+ +       0.0987 * (normalized) href
+ +      -0.1484 * (normalized) htm
+ +       0.0099 * (normalized) html
+ +       0.0464 * (normalized) htmlimg
+ +       0.1853 * (normalized) huge
+ +       0.1438 * (normalized) ibm
+ +       0.2051 * (normalized) identified
+ +       0.0038 * (normalized) iii
+ +       0.0822 * (normalized) iit
+ +      -0.0515 * (normalized) images
+ +       0.0464 * (normalized) img
+ +       0.1039 * (normalized) immediately
+ +      -0.0895 * (normalized) important
+ +       0.1076 * (normalized) includes
+ +       0.0827 * (normalized) increased
+ +       0.1776 * (normalized) industry
+ +       0.0031 * (normalized) inherent
+ +      -0.06   * (normalized) instant
+ +      -0.0136 * (normalized) instructions
+ +       0.0038 * (normalized) intel
+ +       0.0038 * (normalized) intellinet
+ +       0.1256 * (normalized) interested
+ +       0.7368 * (normalized) international
+ +      -0.0232 * (normalized) investing
+ +       0.1599 * (normalized) investment
+ +       0.1576 * (normalized) investor
+ +       0.0778 * (normalized) investors
+ +       0.0492 * (normalized) involve
+ +       0.0038 * (normalized) iomega
+ +       0.0038 * (normalized) jebel
+ +      -0.6678 * (normalized) jpg
+ +      -0.1388 * (normalized) kind
+ +       0.1478 * (normalized) known
+ +      -0.0071 * (normalized) la
+ +       0.2186 * (normalized) large
+ +      -0.5276 * (normalized) late
+ +      -0.0209 * (normalized) latest
+ +      -0.0083 * (normalized) leader
+ +       0.1166 * (normalized) learn
+ +      -0.0004 * (normalized) legislation
+ +      -0.0291 * (normalized) level
+ +       0.0067 * (normalized) licensed
+ +       0.2505 * (normalized) life
+ +       0.0129 * (normalized) limited
+ +       0.0038 * (normalized) listing
+ +       0.3729 * (normalized) live
+ +       0.1407 * (normalized) local
+ +       0.0038 * (normalized) logos
+ +       0.0716 * (normalized) longer
+ +       0.013  * (normalized) lose
+ +       0.0038 * (normalized) lots
+ +      -0.6165 * (normalized) love
+ +       0.2442 * (normalized) low
+ +       0.0296 * (normalized) macromedia
+ +      -0.0044 * (normalized) mailing
+ +       0.0718 * (normalized) major
+ +       0.026  * (normalized) man
+ +      -0.0009 * (normalized) material
+ +       0.0267 * (normalized) materially
+ +       0.0514 * (normalized) matter
+ +       0.0316 * (normalized) meaning
+ +      -0.1736 * (normalized) media
+ +       0.0643 * (normalized) medical
+ +       0.2595 * (normalized) medications
+ +       0.149  * (normalized) meds
+ +       0.1468 * (normalized) men
+ +       0.1296 * (normalized) mg
+ +      -0.0092 * (normalized) microsoft
+ +       0.0503 * (normalized) middle
+ +       0.404  * (normalized) million
+ +       0.3175 * (normalized) mobile
+ +       0.2421 * (normalized) money
+ +       0.2335 * (normalized) mr
+ +       0.0265 * (normalized) ms
+ +       0.0463 * (normalized) muscle
+ +       0.0493 * (normalized) music
+ +       0.0296 * (normalized) mx
+ +       0.1328 * (normalized) national
+ +       0.073  * (normalized) nbsp
+ +       0.0933 * (normalized) nd
+ +       0.0996 * (normalized) near
+ +       0.0431 * (normalized) network
+ +       0.4984 * (normalized) never
+ +      -0.032  * (normalized) news
+ +       0.1673 * (normalized) newsletter
+ +      -0      * (normalized) nomad
+ +       0.0198 * (normalized) none
+ +      -0      * (normalized) normally
+ +      -0.0107 * (normalized) nothing
+ +       0.0013 * (normalized) occur
+ +       0.0434 * (normalized) oem
+ +      -0.0172 * (normalized) offering
+ +       0.0466 * (normalized) offers
+ +       0.0332 * (normalized) officer
+ +       0.0764 * (normalized) oi
+ +       0.0566 * (normalized) oo
+ +       0.0798 * (normalized) ooking
+ +       0.3357 * (normalized) open
+ +      -0.0001 * (normalized) opinion
+ +       0.1385 * (normalized) opportunity
+ +       0.1072 * (normalized) options
+ +       0.0272 * (normalized) otcbb
+ +       0.0037 * (normalized) outstanding
+ +       0.1679 * (normalized) overnight
+ +      -0.0092 * (normalized) own
+ +       0.1012 * (normalized) owners
+ +       0.0038 * (normalized) packard
+ +       0.1546 * (normalized) pain
+ +       0.3359 * (normalized) paliourg
+ +       0.0038 * (normalized) paragraph
+ +      -0.0803 * (normalized) partner
+ +      -0.1616 * (normalized) passed
+ +      -0.0947 * (normalized) past
+ +       0.1773 * (normalized) paste
+ +       0.1858 * (normalized) pc
+ +       0.0278 * (normalized) penis
+ +       0.0665 * (normalized) perfect
+ +      -0.0858 * (normalized) personal
+ +       0.2501 * (normalized) pharmacy
+ +       0.1492 * (normalized) photoshop
+ +       0.5201 * (normalized) php
+ +      -0      * (normalized) pills
+ +       0.0243 * (normalized) plain
+ +      -0.103  * (normalized) plans
+ +       0.1516 * (normalized) play
+ +      -0.0027 * (normalized) plus
+ +       0.4619 * (normalized) popular
+ +       0.0167 * (normalized) potential
+ +       0.0656 * (normalized) prescription
+ +       0.0496 * (normalized) presently
+ +       0.1049 * (normalized) press
+ +      -0.1624 * (normalized) private
+ +       0.4316 * (normalized) prize
+ +       0.0927 * (normalized) pro
+ +       0.1914 * (normalized) professional
+ +      -0.0534 * (normalized) profile
+ +       0.0031 * (normalized) projections
+ +       0.0475 * (normalized) projects
+ +       0.1801 * (normalized) property
+ +      -0.0787 * (normalized) provided
+ +       0.0987 * (normalized) pt
+ +       0.0705 * (normalized) public
+ +       0.0605 * (normalized) publication
+ +       0.0013 * (normalized) publisher
+ +       0.0512 * (normalized) q
+ +       0.3521 * (normalized) quality
+ +       0.0132 * (normalized) quick
+ +       0.0031 * (normalized) readers
+ +       0.1107 * (normalized) real
+ +       0.0156 * (normalized) really
+ +       0.1732 * (normalized) reason
+ +      -0.6382 * (normalized) recent
+ +       0.2874 * (normalized) regards
+ +      -0.0198 * (normalized) registered
+ +       0.0932 * (normalized) release
+ +       0.0046 * (normalized) relief
+ +       0.0171 * (normalized) remember
+ +       0.6568 * (normalized) remove
+ +       0.2629 * (normalized) removed
+ +      -0.0773 * (normalized) reply
+ +      -0.1118 * (normalized) represent
+ +       0.0227 * (normalized) representative
+ +      -0.045  * (normalized) required
+ +       0.0404 * (normalized) research
+ +       0.0038 * (normalized) resellers
+ +       0.0303 * (normalized) reserves
+ +       0.1429 * (normalized) respect
+ +       0.0038 * (normalized) respective
+ +       0.1733 * (normalized) results
+ +      -0.1087 * (normalized) retail
+ +      -0.3042 * (normalized) revenue
+ +      -0.0365 * (normalized) revenues
+ +      -0.0319 * (normalized) risks
+ +      -0.0088 * (normalized) rm
+ +       0.0196 * (normalized) rnd
+ +       0.0038 * (normalized) robotics
+ +       0.2888 * (normalized) rolex
+ +       0.1332 * (normalized) rx
+ +       0.1357 * (normalized) safe
+ +      -0.4465 * (normalized) save
+ +      -0.1142 * (normalized) savings
+ +      -0.0117 * (normalized) say
+ +       0.0018 * (normalized) se
+ +       0.0052 * (normalized) sec
+ +       0.1123 * (normalized) second
+ +       0.4596 * (normalized) secure
+ +       0.0573 * (normalized) securities
+ +       0.2141 * (normalized) security
+ +       0.0186 * (normalized) seek
+ +       0.2406 * (normalized) selected
+ +      -0.0224 * (normalized) server
+ +       0.3094 * (normalized) sex
+ +       0.1309 * (normalized) sexual
+ +       0.0983 * (normalized) shall
+ +       0.0017 * (normalized) share
+ +       0.0592 * (normalized) shares
+ +       0.031  * (normalized) ship
+ +       0.2122 * (normalized) shipping
+ +       0.0497 * (normalized) short
+ +      -0.0762 * (normalized) shown
+ +       0.1264 * (normalized) side
+ +      -0.1028 * (normalized) simply
+ +       0.5274 * (normalized) site
+ +       0.2412 * (normalized) size
+ +       0.0678 * (normalized) small
+ +       0.1864 * (normalized) soft
+ +       0.3057 * (normalized) software
+ +       0.1758 * (normalized) solicitation
+ +       0.0464 * (normalized) solid
+ +      -0.0883 * (normalized) solution
+ +      -0.0037 * (normalized) solutions
+ +      -0      * (normalized) soma
+ +       0.0038 * (normalized) somehow
+ +       0.0038 * (normalized) sony
+ +       0.0251 * (normalized) source
+ +       0.0803 * (normalized) sources
+ +      -0.7663 * (normalized) south
+ +       0.0481 * (normalized) spain
+ +       0.1375 * (normalized) spam
+ +       0.0254 * (normalized) speculative
+ +       0.0987 * (normalized) src
+ +       0.045  * (normalized) statements
+ +       0.1198 * (normalized) states
+ +      -0.0013 * (normalized) stocks
+ +       0.3905 * (normalized) stop
+ +       0.1417 * (normalized) strong
+ +       0.0502 * (normalized) style
+ +      -0.259  * (normalized) subject
+ +       0.0917 * (normalized) subscribers
+ +      -0.0493 * (normalized) suggestions
+ +       0.0521 * (normalized) super
+ +       0.1163 * (normalized) symbol
+ +       0.1731 * (normalized) systems
+ +      -0.221  * (normalized) table
+ +      -0.0691 * (normalized) tabs
+ +       0.0213 * (normalized) target
+ +       0.0038 * (normalized) targus
+ +       0.0502 * (normalized) td
+ +      -0.0214 * (normalized) technologies
+ +       0.0518 * (normalized) technology
+ +       0.052  * (normalized) tel
+ +       0.0326 * (normalized) telephone
+ +       0.0119 * (normalized) terms
+ +      -0.1317 * (normalized) text
+ +       0.1807 * (normalized) thing
+ +       0.3468 * (normalized) third
+ +       0.151  * (normalized) thousand
+ +       0.098  * (normalized) times
+ +       0.0955 * (normalized) title
+ +       0.0174 * (normalized) titles
+ +       0.3828 * (normalized) top
+ +       0.0038 * (normalized) toshiba
+ +       0.0464 * (normalized) tr
+ +      -0.1171 * (normalized) trademarks
+ +       0.1965 * (normalized) transfer
+ +       0.1169 * (normalized) turn
+ +       0.1715 * (normalized) u
+ +       0.0284 * (normalized) uncertainties
+ +       0.1806 * (normalized) und
+ +       0.2004 * (normalized) unique
+ +       0.069  * (normalized) united
+ +       0.1588 * (normalized) upon
+ +       0.096  * (normalized) usa
+ +      -0.1467 * (normalized) usb
+ +       0.0457 * (normalized) user
+ +       0.4485 * (normalized) v
+ +       0.0464 * (normalized) valign
+ +       0.1076 * (normalized) valium
+ +       0.1397 * (normalized) value
+ +       0.0464 * (normalized) verdana
+ +      -0.26   * (normalized) version
+ +       0.311  * (normalized) viagra
+ +       0.1967 * (normalized) vicodin
+ +      -0.2432 * (normalized) video
+ +      -0.1492 * (normalized) view
+ +       0.0038 * (normalized) viewsonic
+ +       0.0296 * (normalized) voice
+ +       0.0018 * (normalized) voip
+ +       0.0778 * (normalized) waste
+ +       0.1784 * (normalized) watch
+ +      -0.0159 * (normalized) weeks
+ +       0.3431 * (normalized) weight
+ +       0.099  * (normalized) wi
+ +       0.2201 * (normalized) wide
+ +       0.0464 * (normalized) width
+ +       0.1543 * (normalized) wife
+ +       0.0948 * (normalized) windows
+ +       0      * (normalized) wireless
+ +       0.3051 * (normalized) wish
+ +       0.1938 * (normalized) women
+ +       0.048  * (normalized) won
+ +       0.076  * (normalized) words
+ +       0.0206 * (normalized) works
+ +       0.0701 * (normalized) world
+ +       0.2767 * (normalized) worldwide
+ +      -0.5254 * (normalized) write
+ +       0.1214 * (normalized) xanax
+ +       0.1497 * (normalized) xp
+ +       0.1447 * (normalized) y
+ +       0.3562 * (normalized) years
+ +       0.2744 * (normalized) yourself
+ +       0.0391 * (normalized) z
+ +      -0.0328 * (normalized) zone
+ +      -0.2533 * (normalized) ~
+ +       1.1003
+
+Number of kernel evaluations: 1518144 (93.123% cached)
+
+
+
+Time taken to build model: 3.02 seconds
+
+=== Predictions on test set ===
+
+inst#,actual,predicted,error,prediction
+1,1:?,2:1,,1
+2,1:?,1:0,,1
+3,1:?,1:0,,1
+4,1:?,2:1,,1
+5,1:?,1:0,,1
+6,1:?,1:0,,1
+7,1:?,2:1,,1
+8,1:?,1:0,,1
+9,1:?,1:0,,1
+10,1:?,2:1,,1
+11,1:?,1:0,,1
+12,1:?,1:0,,1
+13,1:?,1:0,,1
+14,1:?,1:0,,1
+15,1:?,2:1,,1
+16,1:?,1:0,,1
+17,1:?,2:1,,1
+18,1:?,1:0,,1
+19,1:?,1:0,,1
+20,1:?,1:0,,1
+21,1:?,2:1,,1
+22,1:?,1:0,,1
+23,1:?,1:0,,1
+24,1:?,1:0,,1
+25,1:?,1:0,,1
+26,1:?,2:1,,1
+27,1:?,1:0,,1
+28,1:?,2:1,,1
+29,1:?,1:0,,1
+30,1:?,1:0,,1
+31,1:?,2:1,,1
+32,1:?,1:0,,1
+33,1:?,1:0,,1
+34,1:?,1:0,,1
+35,1:?,2:1,,1
+36,1:?,1:0,,1
+37,1:?,2:1,,1
+38,1:?,2:1,,1
+39,1:?,1:0,,1
+40,1:?,2:1,,1
+41,1:?,1:0,,1
+42,1:?,2:1,,1
+43,1:?,1:0,,1
+44,1:?,1:0,,1
+45,1:?,2:1,,1
+46,1:?,1:0,,1
+47,1:?,2:1,,1
+48,1:?,1:0,,1
+49,1:?,2:1,,1
+50,1:?,2:1,,1
+51,1:?,1:0,,1
+52,1:?,2:1,,1
+53,1:?,1:0,,1
+54,1:?,1:0,,1
+55,1:?,2:1,,1
+56,1:?,2:1,,1
+57,1:?,2:1,,1
+58,1:?,2:1,,1
+59,1:?,2:1,,1
+60,1:?,1:0,,1
+61,1:?,1:0,,1
+62,1:?,1:0,,1
+63,1:?,1:0,,1
+64,1:?,2:1,,1
+65,1:?,1:0,,1
+66,1:?,1:0,,1
+67,1:?,1:0,,1
+68,1:?,1:0,,1
+69,1:?,1:0,,1
+70,1:?,1:0,,1
+71,1:?,1:0,,1
+72,1:?,2:1,,1
+73,1:?,2:1,,1
+74,1:?,1:0,,1
+75,1:?,1:0,,1
+76,1:?,1:0,,1
+77,1:?,1:0,,1
+78,1:?,1:0,,1
+79,1:?,1:0,,1
+80,1:?,1:0,,1
+81,1:?,2:1,,1
+82,1:?,2:1,,1
+83,1:?,1:0,,1
+84,1:?,2:1,,1
+85,1:?,1:0,,1
+86,1:?,2:1,,1
+87,1:?,2:1,,1
+88,1:?,1:0,,1
+89,1:?,1:0,,1
+90,1:?,2:1,,1
+91,1:?,1:0,,1
+92,1:?,1:0,,1
+93,1:?,1:0,,1
+94,1:?,1:0,,1
+95,1:?,1:0,,1
+96,1:?,1:0,,1
+97,1:?,1:0,,1
+98,1:?,1:0,,1
+99,1:?,2:1,,1
+100,1:?,1:0,,1
+101,1:?,1:0,,1
+102,1:?,2:1,,1
+103,1:?,1:0,,1
+104,1:?,1:0,,1
+105,1:?,1:0,,1
+106,1:?,1:0,,1
+107,1:?,1:0,,1
+108,1:?,1:0,,1
+109,1:?,1:0,,1
+110,1:?,2:1,,1
+111,1:?,1:0,,1
+112,1:?,2:1,,1
+113,1:?,1:0,,1
+114,1:?,2:1,,1
+115,1:?,2:1,,1
+116,1:?,1:0,,1
+117,1:?,1:0,,1
+118,1:?,1:0,,1
+119,1:?,1:0,,1
+120,1:?,2:1,,1
+121,1:?,2:1,,1
+122,1:?,1:0,,1
+123,1:?,2:1,,1
+124,1:?,1:0,,1
+125,1:?,1:0,,1
+126,1:?,2:1,,1
+127,1:?,2:1,,1
+128,1:?,1:0,,1
+129,1:?,1:0,,1
+130,1:?,1:0,,1
+131,1:?,1:0,,1
+132,1:?,2:1,,1
+133,1:?,1:0,,1
+134,1:?,1:0,,1
+135,1:?,2:1,,1
+136,1:?,1:0,,1
+137,1:?,1:0,,1
+138,1:?,1:0,,1
+139,1:?,1:0,,1
+140,1:?,1:0,,1
+141,1:?,1:0,,1
+142,1:?,2:1,,1
+143,1:?,1:0,,1
+144,1:?,1:0,,1
+145,1:?,1:0,,1
+146,1:?,1:0,,1
+147,1:?,1:0,,1
+148,1:?,2:1,,1
+149,1:?,1:0,,1
+150,1:?,1:0,,1
+151,1:?,2:1,,1
+152,1:?,1:0,,1
+153,1:?,1:0,,1
+154,1:?,2:1,,1
+155,1:?,1:0,,1
+156,1:?,1:0,,1
+157,1:?,2:1,,1
+158,1:?,1:0,,1
+159,1:?,1:0,,1
+160,1:?,1:0,,1
+161,1:?,2:1,,1
+162,1:?,1:0,,1
+163,1:?,1:0,,1
+164,1:?,1:0,,1
+165,1:?,2:1,,1
+166,1:?,1:0,,1
+167,1:?,1:0,,1
+168,1:?,1:0,,1
+169,1:?,1:0,,1
+170,1:?,2:1,,1
+171,1:?,2:1,,1
+172,1:?,1:0,,1
+173,1:?,1:0,,1
+174,1:?,1:0,,1
+175,1:?,2:1,,1
+176,1:?,2:1,,1
+177,1:?,1:0,,1
+178,1:?,1:0,,1
+179,1:?,1:0,,1
+180,1:?,1:0,,1
+181,1:?,2:1,,1
+182,1:?,2:1,,1
+183,1:?,1:0,,1
+184,1:?,2:1,,1
+185,1:?,2:1,,1
+186,1:?,1:0,,1
+187,1:?,1:0,,1
+188,1:?,1:0,,1
+189,1:?,1:0,,1
+190,1:?,1:0,,1
+191,1:?,1:0,,1
+192,1:?,1:0,,1
+193,1:?,2:1,,1
+194,1:?,1:0,,1
+195,1:?,1:0,,1
+196,1:?,1:0,,1
+197,1:?,1:0,,1
+198,1:?,2:1,,1
+199,1:?,2:1,,1
+200,1:?,2:1,,1
+201,1:?,2:1,,1
+202,1:?,1:0,,1
+203,1:?,1:0,,1
+204,1:?,2:1,,1
+205,1:?,1:0,,1
+206,1:?,1:0,,1
+207,1:?,1:0,,1
+208,1:?,1:0,,1
+209,1:?,1:0,,1
+210,1:?,2:1,,1
+211,1:?,1:0,,1
+212,1:?,2:1,,1
+213,1:?,1:0,,1
+214,1:?,2:1,,1
+215,1:?,1:0,,1
+216,1:?,2:1,,1
+217,1:?,2:1,,1
+218,1:?,1:0,,1
+219,1:?,1:0,,1
+220,1:?,2:1,,1
+221,1:?,2:1,,1
+222,1:?,1:0,,1
+223,1:?,1:0,,1
+224,1:?,1:0,,1
+225,1:?,1:0,,1
+226,1:?,2:1,,1
+227,1:?,1:0,,1
+228,1:?,2:1,,1
+229,1:?,1:0,,1
+230,1:?,1:0,,1
+231,1:?,1:0,,1
+232,1:?,1:0,,1
+233,1:?,1:0,,1
+234,1:?,1:0,,1
+235,1:?,1:0,,1
+236,1:?,1:0,,1
+237,1:?,2:1,,1
+238,1:?,2:1,,1
+239,1:?,1:0,,1
+240,1:?,1:0,,1
+241,1:?,2:1,,1
+242,1:?,1:0,,1
+243,1:?,1:0,,1
+244,1:?,2:1,,1
+245,1:?,1:0,,1
+246,1:?,1:0,,1
+247,1:?,2:1,,1
+248,1:?,1:0,,1
+249,1:?,1:0,,1
+250,1:?,1:0,,1
+251,1:?,1:0,,1
+252,1:?,1:0,,1
+253,1:?,1:0,,1
+254,1:?,2:1,,1
+255,1:?,2:1,,1
+256,1:?,1:0,,1
+257,1:?,1:0,,1
+258,1:?,1:0,,1
+259,1:?,1:0,,1
+260,1:?,1:0,,1
+261,1:?,1:0,,1
+262,1:?,1:0,,1
+263,1:?,1:0,,1
+264,1:?,1:0,,1
+265,1:?,1:0,,1
+266,1:?,1:0,,1
+267,1:?,2:1,,1
+268,1:?,1:0,,1
+269,1:?,2:1,,1
+270,1:?,1:0,,1
+271,1:?,1:0,,1
+272,1:?,1:0,,1
+273,1:?,1:0,,1
+274,1:?,2:1,,1
+275,1:?,1:0,,1
+276,1:?,1:0,,1
+277,1:?,1:0,,1
+278,1:?,2:1,,1
+279,1:?,1:0,,1
+280,1:?,1:0,,1
+281,1:?,1:0,,1
+282,1:?,2:1,,1
+283,1:?,2:1,,1
+284,1:?,1:0,,1
+285,1:?,1:0,,1
+286,1:?,2:1,,1
+287,1:?,1:0,,1
+288,1:?,2:1,,1
+289,1:?,2:1,,1
+290,1:?,1:0,,1
+291,1:?,1:0,,1
+292,1:?,1:0,,1
+293,1:?,1:0,,1
+294,1:?,1:0,,1
+295,1:?,1:0,,1
+296,1:?,2:1,,1
+297,1:?,2:1,,1
+298,1:?,1:0,,1
+299,1:?,2:1,,1
+300,1:?,1:0,,1
+301,1:?,1:0,,1
+302,1:?,2:1,,1
+303,1:?,1:0,,1
+304,1:?,1:0,,1
+305,1:?,1:0,,1
+306,1:?,1:0,,1
+307,1:?,2:1,,1
+308,1:?,1:0,,1
+309,1:?,2:1,,1
+310,1:?,1:0,,1
+311,1:?,1:0,,1
+312,1:?,2:1,,1
+313,1:?,1:0,,1
+314,1:?,1:0,,1
+315,1:?,2:1,,1
+316,1:?,1:0,,1
+317,1:?,2:1,,1
+318,1:?,2:1,,1
+319,1:?,1:0,,1
+320,1:?,2:1,,1
+321,1:?,1:0,,1
+322,1:?,1:0,,1
+323,1:?,1:0,,1
+324,1:?,1:0,,1
+325,1:?,1:0,,1
+326,1:?,1:0,,1
+327,1:?,1:0,,1
+328,1:?,1:0,,1
+329,1:?,2:1,,1
+330,1:?,1:0,,1
+331,1:?,2:1,,1
+332,1:?,1:0,,1
+333,1:?,1:0,,1
+334,1:?,1:0,,1
+335,1:?,2:1,,1
+336,1:?,2:1,,1
+337,1:?,2:1,,1
+338,1:?,1:0,,1
+339,1:?,2:1,,1
+340,1:?,2:1,,1
+341,1:?,2:1,,1
+342,1:?,1:0,,1
+343,1:?,1:0,,1
+344,1:?,1:0,,1
+345,1:?,2:1,,1
+346,1:?,1:0,,1
+347,1:?,1:0,,1
+348,1:?,1:0,,1
+349,1:?,1:0,,1
+350,1:?,2:1,,1
+351,1:?,1:0,,1
+352,1:?,1:0,,1
+353,1:?,1:0,,1
+354,1:?,1:0,,1
+355,1:?,2:1,,1
+356,1:?,1:0,,1
+357,1:?,2:1,,1
+358,1:?,1:0,,1
+359,1:?,1:0,,1
+360,1:?,1:0,,1
+361,1:?,1:0,,1
+362,1:?,1:0,,1
+363,1:?,1:0,,1
+364,1:?,1:0,,1
+365,1:?,1:0,,1
+366,1:?,1:0,,1
+367,1:?,2:1,,1
+368,1:?,2:1,,1
+369,1:?,1:0,,1
+370,1:?,1:0,,1
+371,1:?,2:1,,1
+372,1:?,1:0,,1
+373,1:?,1:0,,1
+374,1:?,1:0,,1
+375,1:?,1:0,,1
+376,1:?,1:0,,1
+377,1:?,1:0,,1
+378,1:?,1:0,,1
+379,1:?,1:0,,1
+380,1:?,2:1,,1
+381,1:?,1:0,,1
+382,1:?,1:0,,1
+383,1:?,1:0,,1
+384,1:?,1:0,,1
+385,1:?,1:0,,1
+386,1:?,1:0,,1
+387,1:?,1:0,,1
+388,1:?,1:0,,1
+389,1:?,1:0,,1
+390,1:?,1:0,,1
+391,1:?,2:1,,1
+392,1:?,2:1,,1
+393,1:?,1:0,,1
+394,1:?,2:1,,1
+395,1:?,1:0,,1
+396,1:?,1:0,,1
+397,1:?,1:0,,1
+398,1:?,1:0,,1
+399,1:?,1:0,,1
+400,1:?,2:1,,1
+401,1:?,2:1,,1
+402,1:?,2:1,,1
+403,1:?,1:0,,1
+404,1:?,1:0,,1
+405,1:?,2:1,,1
+406,1:?,1:0,,1
+407,1:?,2:1,,1
+408,1:?,1:0,,1
+409,1:?,1:0,,1
+410,1:?,1:0,,1
+411,1:?,2:1,,1
+412,1:?,1:0,,1
+413,1:?,1:0,,1
+414,1:?,1:0,,1
+415,1:?,2:1,,1
+416,1:?,1:0,,1
+417,1:?,2:1,,1
+418,1:?,2:1,,1
+419,1:?,1:0,,1
+420,1:?,1:0,,1
+421,1:?,2:1,,1
+422,1:?,1:0,,1
+423,1:?,1:0,,1
+424,1:?,1:0,,1
+425,1:?,1:0,,1
+426,1:?,2:1,,1
+427,1:?,2:1,,1
+428,1:?,2:1,,1
+429,1:?,1:0,,1
+430,1:?,1:0,,1
+431,1:?,2:1,,1
+432,1:?,1:0,,1
+433,1:?,2:1,,1
+434,1:?,2:1,,1
+435,1:?,1:0,,1
+436,1:?,1:0,,1
+437,1:?,2:1,,1
+438,1:?,1:0,,1
+439,1:?,1:0,,1
+440,1:?,2:1,,1
+441,1:?,2:1,,1
+442,1:?,2:1,,1
+443,1:?,2:1,,1
+444,1:?,1:0,,1
+445,1:?,1:0,,1
+446,1:?,1:0,,1
+447,1:?,2:1,,1
+448,1:?,2:1,,1
+449,1:?,1:0,,1
+450,1:?,2:1,,1
+451,1:?,2:1,,1
+452,1:?,2:1,,1
+453,1:?,1:0,,1
+454,1:?,1:0,,1
+455,1:?,2:1,,1
+456,1:?,1:0,,1
+457,1:?,2:1,,1
+458,1:?,1:0,,1
+459,1:?,1:0,,1
+460,1:?,1:0,,1
+461,1:?,1:0,,1
+462,1:?,2:1,,1
+463,1:?,1:0,,1
+464,1:?,1:0,,1
+465,1:?,2:1,,1
+466,1:?,2:1,,1
+467,1:?,1:0,,1
+468,1:?,1:0,,1
+469,1:?,2:1,,1
+470,1:?,1:0,,1
+471,1:?,1:0,,1
+472,1:?,1:0,,1
+473,1:?,1:0,,1
+474,1:?,1:0,,1
+475,1:?,1:0,,1
+476,1:?,1:0,,1
+477,1:?,1:0,,1
+478,1:?,2:1,,1
+479,1:?,2:1,,1
+480,1:?,1:0,,1
+481,1:?,1:0,,1
+482,1:?,2:1,,1
+483,1:?,2:1,,1
+484,1:?,2:1,,1
+485,1:?,2:1,,1
+486,1:?,2:1,,1
+487,1:?,1:0,,1
+488,1:?,1:0,,1
+489,1:?,2:1,,1
+490,1:?,1:0,,1
+491,1:?,1:0,,1
+492,1:?,1:0,,1
+493,1:?,1:0,,1
+494,1:?,2:1,,1
+495,1:?,1:0,,1
+496,1:?,1:0,,1
+497,1:?,1:0,,1
+498,1:?,2:1,,1
+499,1:?,1:0,,1
+500,1:?,2:1,,1
+501,1:?,2:1,,1
+502,1:?,1:0,,1
+503,1:?,2:1,,1
+504,1:?,2:1,,1
+505,1:?,1:0,,1
+506,1:?,1:0,,1
+507,1:?,1:0,,1
+508,1:?,1:0,,1
+509,1:?,2:1,,1
+510,1:?,1:0,,1
+511,1:?,1:0,,1
+512,1:?,1:0,,1
+513,1:?,2:1,,1
+514,1:?,1:0,,1
+515,1:?,2:1,,1
+516,1:?,2:1,,1
+517,1:?,2:1,,1
+518,1:?,2:1,,1
+519,1:?,2:1,,1
+520,1:?,1:0,,1
+521,1:?,1:0,,1
+522,1:?,1:0,,1
+523,1:?,2:1,,1
+524,1:?,1:0,,1
+525,1:?,1:0,,1
+526,1:?,1:0,,1
+527,1:?,1:0,,1
+528,1:?,1:0,,1
+529,1:?,1:0,,1
+530,1:?,1:0,,1
+531,1:?,1:0,,1
+532,1:?,2:1,,1
+533,1:?,2:1,,1
+534,1:?,1:0,,1
+535,1:?,2:1,,1
+536,1:?,1:0,,1
+537,1:?,1:0,,1
+538,1:?,1:0,,1
+539,1:?,1:0,,1
+540,1:?,1:0,,1
+541,1:?,1:0,,1
+542,1:?,1:0,,1
+543,1:?,1:0,,1
+544,1:?,1:0,,1
+545,1:?,1:0,,1
+546,1:?,2:1,,1
+547,1:?,2:1,,1
+548,1:?,1:0,,1
+549,1:?,1:0,,1
+550,1:?,1:0,,1
+551,1:?,1:0,,1
+552,1:?,1:0,,1
+553,1:?,1:0,,1
+554,1:?,1:0,,1
+555,1:?,1:0,,1
+556,1:?,2:1,,1
+557,1:?,1:0,,1
+558,1:?,2:1,,1
+559,1:?,2:1,,1
+560,1:?,1:0,,1
+561,1:?,1:0,,1
+562,1:?,1:0,,1
+563,1:?,1:0,,1
+564,1:?,2:1,,1
+565,1:?,2:1,,1
+566,1:?,2:1,,1
+567,1:?,1:0,,1
+568,1:?,1:0,,1
+569,1:?,1:0,,1
+570,1:?,2:1,,1
+571,1:?,1:0,,1
+572,1:?,1:0,,1
+573,1:?,2:1,,1
+574,1:?,1:0,,1
+575,1:?,2:1,,1
+576,1:?,1:0,,1
+577,1:?,1:0,,1
+578,1:?,1:0,,1
+579,1:?,1:0,,1
+580,1:?,2:1,,1
+581,1:?,1:0,,1
+582,1:?,1:0,,1
+583,1:?,1:0,,1
+584,1:?,2:1,,1
+585,1:?,2:1,,1
+586,1:?,1:0,,1
+587,1:?,1:0,,1
+588,1:?,1:0,,1
+589,1:?,1:0,,1
+590,1:?,1:0,,1
+591,1:?,1:0,,1
+592,1:?,1:0,,1
+593,1:?,2:1,,1
+594,1:?,1:0,,1
+595,1:?,1:0,,1
+596,1:?,1:0,,1
+597,1:?,2:1,,1
+598,1:?,1:0,,1
+599,1:?,2:1,,1
+600,1:?,1:0,,1
+601,1:?,1:0,,1
+602,1:?,1:0,,1
+603,1:?,2:1,,1
+604,1:?,1:0,,1
+605,1:?,1:0,,1
+606,1:?,1:0,,1
+607,1:?,1:0,,1
+608,1:?,2:1,,1
+609,1:?,2:1,,1
+610,1:?,1:0,,1
+611,1:?,2:1,,1
+612,1:?,1:0,,1
+613,1:?,1:0,,1
+614,1:?,1:0,,1
+615,1:?,1:0,,1
+616,1:?,1:0,,1
+617,1:?,1:0,,1
+618,1:?,1:0,,1
+619,1:?,1:0,,1
+620,1:?,1:0,,1
+621,1:?,1:0,,1
+622,1:?,2:1,,1
+623,1:?,1:0,,1
+624,1:?,1:0,,1
+625,1:?,1:0,,1
+626,1:?,2:1,,1
+627,1:?,2:1,,1
+628,1:?,2:1,,1
+629,1:?,2:1,,1
+630,1:?,1:0,,1
+631,1:?,1:0,,1
+632,1:?,2:1,,1
+633,1:?,1:0,,1
+634,1:?,1:0,,1
+635,1:?,2:1,,1
+636,1:?,2:1,,1
+637,1:?,2:1,,1
+638,1:?,1:0,,1
+639,1:?,1:0,,1
+640,1:?,1:0,,1
+641,1:?,2:1,,1
+642,1:?,1:0,,1
+643,1:?,1:0,,1
+644,1:?,1:0,,1
+645,1:?,2:1,,1
+646,1:?,1:0,,1
+647,1:?,1:0,,1
+648,1:?,2:1,,1
+649,1:?,1:0,,1
+650,1:?,1:0,,1
+651,1:?,1:0,,1
+652,1:?,1:0,,1
+653,1:?,1:0,,1
+654,1:?,2:1,,1
+655,1:?,1:0,,1
+656,1:?,1:0,,1
+657,1:?,1:0,,1
+658,1:?,2:1,,1
+659,1:?,1:0,,1
+660,1:?,1:0,,1
+661,1:?,1:0,,1
+662,1:?,1:0,,1
+663,1:?,2:1,,1
+664,1:?,1:0,,1
+665,1:?,1:0,,1
+666,1:?,1:0,,1
+667,1:?,1:0,,1
+668,1:?,1:0,,1
+669,1:?,1:0,,1
+670,1:?,1:0,,1
+671,1:?,1:0,,1
+672,1:?,1:0,,1
+673,1:?,1:0,,1
+674,1:?,1:0,,1
+675,1:?,2:1,,1
+676,1:?,1:0,,1
+677,1:?,2:1,,1
+678,1:?,2:1,,1
+679,1:?,1:0,,1
+680,1:?,1:0,,1
+681,1:?,2:1,,1
+682,1:?,1:0,,1
+683,1:?,1:0,,1
+684,1:?,1:0,,1
+685,1:?,2:1,,1
+686,1:?,1:0,,1
+687,1:?,1:0,,1
+688,1:?,1:0,,1
+689,1:?,1:0,,1
+690,1:?,1:0,,1
+691,1:?,1:0,,1
+692,1:?,2:1,,1
+693,1:?,2:1,,1
+694,1:?,2:1,,1
+695,1:?,1:0,,1
+696,1:?,1:0,,1
+697,1:?,1:0,,1
+698,1:?,2:1,,1
+699,1:?,1:0,,1
+700,1:?,2:1,,1
+701,1:?,2:1,,1
+702,1:?,1:0,,1
+703,1:?,1:0,,1
+704,1:?,1:0,,1
+705,1:?,1:0,,1
+706,1:?,1:0,,1
+707,1:?,1:0,,1
+708,1:?,2:1,,1
+709,1:?,1:0,,1
+710,1:?,1:0,,1
+711,1:?,2:1,,1
+712,1:?,1:0,,1
+713,1:?,1:0,,1
+714,1:?,1:0,,1
+715,1:?,2:1,,1
+716,1:?,1:0,,1
+717,1:?,1:0,,1
+718,1:?,1:0,,1
+719,1:?,1:0,,1
+720,1:?,1:0,,1
+721,1:?,1:0,,1
+722,1:?,2:1,,1
+723,1:?,2:1,,1
+724,1:?,1:0,,1
+725,1:?,2:1,,1
+726,1:?,1:0,,1
+727,1:?,2:1,,1
+728,1:?,1:0,,1
+729,1:?,1:0,,1
+730,1:?,1:0,,1
+731,1:?,2:1,,1
+732,1:?,1:0,,1
+733,1:?,1:0,,1
+734,1:?,1:0,,1
+735,1:?,2:1,,1
+736,1:?,2:1,,1
+737,1:?,1:0,,1
+738,1:?,1:0,,1
+739,1:?,1:0,,1
+740,1:?,2:1,,1
+741,1:?,1:0,,1
+742,1:?,1:0,,1
+743,1:?,1:0,,1
+744,1:?,1:0,,1
+745,1:?,2:1,,1
+746,1:?,1:0,,1
+747,1:?,2:1,,1
+748,1:?,1:0,,1
+749,1:?,2:1,,1
+750,1:?,1:0,,1
+751,1:?,1:0,,1
+752,1:?,1:0,,1
+753,1:?,1:0,,1
+754,1:?,1:0,,1
+755,1:?,1:0,,1
+756,1:?,2:1,,1
+757,1:?,1:0,,1
+758,1:?,2:1,,1
+759,1:?,2:1,,1
+760,1:?,2:1,,1
+761,1:?,1:0,,1
+762,1:?,1:0,,1
+763,1:?,1:0,,1
+764,1:?,1:0,,1
+765,1:?,2:1,,1
+766,1:?,1:0,,1
+767,1:?,1:0,,1
+768,1:?,2:1,,1
+769,1:?,1:0,,1
+770,1:?,2:1,,1
+771,1:?,1:0,,1
+772,1:?,1:0,,1
+773,1:?,2:1,,1
+774,1:?,2:1,,1
+775,1:?,2:1,,1
+776,1:?,1:0,,1
+777,1:?,1:0,,1
+778,1:?,1:0,,1
+779,1:?,1:0,,1
+780,1:?,1:0,,1
+781,1:?,2:1,,1
+782,1:?,1:0,,1
+783,1:?,2:1,,1
+784,1:?,1:0,,1
+785,1:?,1:0,,1
+786,1:?,1:0,,1
+787,1:?,1:0,,1
+788,1:?,1:0,,1
+789,1:?,1:0,,1
+790,1:?,1:0,,1
+791,1:?,1:0,,1
+792,1:?,1:0,,1
+793,1:?,1:0,,1
+794,1:?,1:0,,1
+795,1:?,1:0,,1
+796,1:?,2:1,,1
+797,1:?,1:0,,1
+798,1:?,2:1,,1
+799,1:?,2:1,,1
+800,1:?,2:1,,1
+801,1:?,1:0,,1
+802,1:?,1:0,,1
+803,1:?,1:0,,1
+804,1:?,2:1,,1
+805,1:?,1:0,,1
+806,1:?,1:0,,1
+807,1:?,2:1,,1
+808,1:?,1:0,,1
+809,1:?,1:0,,1
+810,1:?,1:0,,1
+811,1:?,1:0,,1
+812,1:?,1:0,,1
+813,1:?,1:0,,1
+814,1:?,1:0,,1
+815,1:?,1:0,,1
+816,1:?,1:0,,1
+817,1:?,1:0,,1
+818,1:?,2:1,,1
+819,1:?,2:1,,1
+820,1:?,1:0,,1
+821,1:?,2:1,,1
+822,1:?,2:1,,1
+823,1:?,2:1,,1
+824,1:?,1:0,,1
+825,1:?,1:0,,1
+826,1:?,1:0,,1
+827,1:?,1:0,,1
+828,1:?,2:1,,1
+829,1:?,1:0,,1
+830,1:?,1:0,,1
+831,1:?,2:1,,1
+832,1:?,2:1,,1
+833,1:?,2:1,,1
+834,1:?,1:0,,1
+835,1:?,1:0,,1
+836,1:?,1:0,,1
+837,1:?,1:0,,1
+838,1:?,2:1,,1
+839,1:?,2:1,,1
+840,1:?,1:0,,1
+841,1:?,2:1,,1
+842,1:?,1:0,,1
+843,1:?,2:1,,1
+844,1:?,1:0,,1
+845,1:?,2:1,,1
+846,1:?,1:0,,1
+847,1:?,1:0,,1
+848,1:?,1:0,,1
+849,1:?,2:1,,1
+850,1:?,1:0,,1
+851,1:?,2:1,,1
+852,1:?,1:0,,1
+853,1:?,1:0,,1
+854,1:?,1:0,,1
+855,1:?,1:0,,1
+856,1:?,1:0,,1
+857,1:?,2:1,,1
+858,1:?,1:0,,1
+859,1:?,2:1,,1
+860,1:?,1:0,,1
+861,1:?,2:1,,1
+862,1:?,1:0,,1
+863,1:?,1:0,,1
+864,1:?,1:0,,1
+865,1:?,2:1,,1
+866,1:?,1:0,,1
+867,1:?,1:0,,1
+868,1:?,1:0,,1
+869,1:?,1:0,,1
+870,1:?,2:1,,1
+871,1:?,1:0,,1
+872,1:?,1:0,,1
+873,1:?,2:1,,1
+874,1:?,1:0,,1
+875,1:?,1:0,,1
+876,1:?,2:1,,1
+877,1:?,2:1,,1
+878,1:?,1:0,,1
+879,1:?,1:0,,1
+880,1:?,1:0,,1
+881,1:?,1:0,,1
+882,1:?,1:0,,1
+883,1:?,2:1,,1
+884,1:?,2:1,,1
+885,1:?,1:0,,1
+886,1:?,1:0,,1
+887,1:?,1:0,,1
+888,1:?,2:1,,1
+889,1:?,1:0,,1
+890,1:?,1:0,,1
+891,1:?,1:0,,1
+892,1:?,1:0,,1
+893,1:?,1:0,,1
+894,1:?,2:1,,1
+895,1:?,2:1,,1
+896,1:?,1:0,,1
+897,1:?,1:0,,1
+898,1:?,1:0,,1
+899,1:?,1:0,,1
+900,1:?,2:1,,1
+901,1:?,1:0,,1
+902,1:?,1:0,,1
+903,1:?,2:1,,1
+904,1:?,1:0,,1
+905,1:?,2:1,,1
+906,1:?,1:0,,1
+907,1:?,2:1,,1
+908,1:?,2:1,,1
+909,1:?,2:1,,1
+910,1:?,1:0,,1
+911,1:?,1:0,,1
+912,1:?,1:0,,1
+913,1:?,1:0,,1
+914,1:?,1:0,,1
+915,1:?,1:0,,1
+916,1:?,2:1,,1
+917,1:?,1:0,,1
+918,1:?,1:0,,1
+919,1:?,2:1,,1
+920,1:?,1:0,,1
+921,1:?,1:0,,1
+922,1:?,1:0,,1
+923,1:?,1:0,,1
+924,1:?,1:0,,1
+925,1:?,1:0,,1
+926,1:?,1:0,,1
+927,1:?,2:1,,1
+928,1:?,1:0,,1
+929,1:?,2:1,,1
+930,1:?,1:0,,1
+931,1:?,2:1,,1
+932,1:?,1:0,,1
+933,1:?,1:0,,1
+934,1:?,2:1,,1
+935,1:?,2:1,,1
+936,1:?,1:0,,1
+937,1:?,1:0,,1
+938,1:?,1:0,,1
+939,1:?,1:0,,1
+940,1:?,1:0,,1
+941,1:?,1:0,,1
+942,1:?,1:0,,1
+943,1:?,1:0,,1
+944,1:?,2:1,,1
+945,1:?,1:0,,1
+946,1:?,1:0,,1
+947,1:?,2:1,,1
+948,1:?,1:0,,1
+949,1:?,2:1,,1
+950,1:?,1:0,,1
+951,1:?,1:0,,1
+952,1:?,1:0,,1
+953,1:?,1:0,,1
+954,1:?,1:0,,1
+955,1:?,1:0,,1
+956,1:?,1:0,,1
+957,1:?,1:0,,1
+958,1:?,2:1,,1
+959,1:?,1:0,,1
+960,1:?,1:0,,1
+961,1:?,1:0,,1
+962,1:?,2:1,,1
+963,1:?,1:0,,1
+964,1:?,1:0,,1
+965,1:?,2:1,,1
+966,1:?,1:0,,1
+967,1:?,1:0,,1
+968,1:?,1:0,,1
+969,1:?,1:0,,1
+970,1:?,1:0,,1
+971,1:?,1:0,,1
+972,1:?,1:0,,1
+973,1:?,1:0,,1
+974,1:?,2:1,,1
+975,1:?,1:0,,1
+976,1:?,1:0,,1
+977,1:?,1:0,,1
+978,1:?,1:0,,1
+979,1:?,2:1,,1
+980,1:?,1:0,,1
+981,1:?,1:0,,1
+982,1:?,2:1,,1
+983,1:?,1:0,,1
+984,1:?,1:0,,1
+985,1:?,1:0,,1
+986,1:?,2:1,,1
+987,1:?,2:1,,1
+988,1:?,1:0,,1
+989,1:?,2:1,,1
+990,1:?,2:1,,1
+991,1:?,1:0,,1
+992,1:?,1:0,,1
+993,1:?,2:1,,1
+994,1:?,2:1,,1
+995,1:?,2:1,,1
+996,1:?,2:1,,1
+997,1:?,1:0,,1
+998,1:?,1:0,,1
+999,1:?,1:0,,1
+1000,1:?,2:1,,1
+1001,1:?,1:0,,1
+1002,1:?,1:0,,1
+1003,1:?,1:0,,1
+1004,1:?,2:1,,1
+1005,1:?,1:0,,1
+1006,1:?,2:1,,1
+1007,1:?,1:0,,1
+1008,1:?,1:0,,1
+1009,1:?,1:0,,1
+1010,1:?,1:0,,1
+1011,1:?,1:0,,1
+1012,1:?,1:0,,1
+1013,1:?,1:0,,1
+1014,1:?,1:0,,1
+1015,1:?,1:0,,1
+1016,1:?,1:0,,1
+1017,1:?,1:0,,1
+1018,1:?,1:0,,1
+1019,1:?,1:0,,1
+1020,1:?,1:0,,1
+1021,1:?,1:0,,1
+1022,1:?,1:0,,1
+1023,1:?,2:1,,1
+1024,1:?,1:0,,1
+1025,1:?,1:0,,1
+1026,1:?,1:0,,1
+1027,1:?,1:0,,1
+1028,1:?,2:1,,1
+1029,1:?,1:0,,1
+1030,1:?,1:0,,1
+1031,1:?,1:0,,1
+1032,1:?,1:0,,1
+1033,1:?,1:0,,1
+1034,1:?,1:0,,1
+1035,1:?,1:0,,1
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.33 seconds
+
+=== Summary ===
+
+Total Number of Instances                0     
+Ignored Class Unknown Instances               1035     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 ?        ?        ?          ?        ?          ?        ?         ?         0
+                 ?        ?        ?          ?        ?          ?        ?         ?         1
+Weighted Avg.    ?        ?        ?          ?        ?          ?        ?         ?         
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 0 0 | a = 0
+ 0 0 | b = 1
+
