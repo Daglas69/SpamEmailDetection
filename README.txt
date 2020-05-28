@@ -1,6 +1,6 @@
-------------------------
+-------------------------------
 PROJECT DESCRITION:
-------------------------
+-------------------------------
 This project has been realized for the Intelligent Systems course, being teaching by Dr. Octavio Loyola-Gonzalez, 
 At Tecnologico de Monterrey, campus Puebla.
 
@@ -16,9 +16,11 @@ It replaces <'> by <\'> in order to be able to load the file in Weka.
 
 The IDE for the project is : IntelliJ IDEA
 
-------------------------
+Author: Gaspard GOUPY
+
+---------------------------------
 PROJECT DIRECTORIES:
-------------------------
+---------------------------------
 - src/
 -> Contains the source code used in the project
 	* src/SpamEmailDetection/
@@ -35,3 +37,6 @@ PROJECT DIRECTORIES:
 
 - submissions/
 -> Contains SOME of the files submitted to Kaggle
+
+- images/
+-> Contains images of the project
