@@ -4,9 +4,11 @@ PROJECT DESCRITION:
 This project has been realized for the Intelligent Systems course, being teaching by Dr. Octavio Loyola-Gonzalez, 
 At Tecnologico de Monterrey, campus Puebla.
 
+A kaggle competition "Spam Email Detection" has been created for the course.
+
 The purpose was to build a system able to detect spam email, with a content-based approach.
 
-Kaggle website has been used to download Training and Testing file, and for to evaluate the system accuracy.
+Kaggle website has been used to download Training and Testing files, and to evaluate the system accuracy.
 Weka software has been used for the classification. 
 
 The final solution proposed is :
@@ -16,7 +18,10 @@ It replaces <'> by <\'> in order to be able to load the file in Weka.
 
 The IDE for the project is : IntelliJ IDEA
 
+The folder images contains pieces of evidence of the participation in the Kaggle competition.
+
 Author: Gaspard GOUPY
+
 
 ---------------------------------
 PROJECT DIRECTORIES:
@@ -36,7 +41,7 @@ PROJECT DIRECTORIES:
 -> Contains the latex source code
 
 - submissions/
--> Contains SOME of the files submitted to Kaggle
+-> Contains some of the files submitted to Kaggle
 
 - images/
 -> Contains images of the project

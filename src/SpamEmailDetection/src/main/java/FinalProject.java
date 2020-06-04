@@ -44,6 +44,7 @@ class FinalProject {
         catch (Exception e) {e.printStackTrace();}
     }
 
+	//Count the number of http links found in a String
     private static int nbOfLinks(String s) {
         String [] arr = s.split("\\s+");
         int nb = 0;
@@ -54,6 +55,7 @@ class FinalProject {
         return nb;
     }
 
+	//Count the number of unique http link found in a String
     private static int nbOfUniqLinks(String s) {
         String [] arr = s.split("\\s+");
         ArrayList<String> uniq = new ArrayList<>();
@@ -81,6 +83,7 @@ class FinalProject {
         return uniq.size();
     }
 
+	//Count the number of word containing only letters in a String
     private static int nbOfLetterWords(String s) {
         String [] arr = s.split("\\s+");
         int nb = 0;
@@ -95,7 +98,8 @@ class FinalProject {
     }
 
     //Transform the .csv file into a Weka readable file
-    //Only keep the ID, text field and Class
+    //Only keep the ID, text field and Class columns
+	//Enclose the text field with '' to make it readable by Weka
     public static void adaptForWeka(String file, String out) {
         try {
             CSVReader reader = new CSVReaderBuilder(new FileReader(file)).build();

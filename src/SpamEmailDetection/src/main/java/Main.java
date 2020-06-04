@@ -39,7 +39,7 @@ public class Main {
 
     public static void main(String [] args)
     {
-        FinalProject.adaptForWeka("in/dTesting.csv", "out/Testing.csv");
+        FinalProject.adaptForWeka("in/Testing.csv", "out/Testing.csv");
         FinalProject.adaptForWeka("in/Training.csv", "out/Training.csv");
     }
 }
