@@ -1,6 +1,4 @@
--------------------------------
-PROJECT DESCRITION:
--------------------------------
+# PROJECT DESCRITION:
 This project has been realized for the Intelligent Systems course, being teaching by Dr. Octavio Loyola-Gonzalez, 
 At Tecnologico de Monterrey, campus Puebla.
 
@@ -23,9 +21,7 @@ The folder images contains pieces of evidence of the participation in the Kaggle
 Author: Gaspard GOUPY
 
 
----------------------------------
-PROJECT DIRECTORIES:
----------------------------------
+# PROJECT DIRECTORIES:
 - src/
 -> Contains the source code used in the project
 	* src/SpamEmailDetection/
